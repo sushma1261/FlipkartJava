@@ -50,12 +50,17 @@ public class ProfessorClient {
 					if(ProfessorDaoImpl.checkValidCourseForProfessor(professor, courseId)) {
 						logger.info("Enter student Id: ");
 						int studentId = Integer.parseInt(sc.nextLine());
-						logger.info("Enter grades:");
-						String grades = sc.nextLine();
-						professorOperation.gradeStudent(professor, studentId, grades, courseId);
+						if(ProfessorDaoImpl.checkValidCourseForStudent(studentId, courseId)) {
+							logger.info("Enter grades:");
+							String grades = sc.nextLine();
+							professorOperation.gradeStudent(professor, studentId, grades, courseId);
+						}
+						else {
+							logger.info("Student has not registered for this course");
+						}
 					}
 					else {
-						logger.info("Wrong course selected");
+						logger.info("You cannot grade for that course");
 					}
 					
 					break;

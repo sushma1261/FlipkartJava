@@ -31,7 +31,8 @@ public class CatalogDaoImpl implements CatalogDao {
 				Course course = new Course();
 				course.setCourseId(rs.getInt("courseId"));
 				course.setCourseName(rs.getString("courseName"));
-				course.setProfessorAssigned(rs.getString("professor"));
+				course.setDescription(rs.getString("courseDescription"));
+				course.setFees(rs.getInt("fees"));
 				courseList.add(course);
 			}
 		}catch(SQLException se){
@@ -54,7 +55,8 @@ public class CatalogDaoImpl implements CatalogDao {
 				course = new Course();
 				course.setCourseId(courseId);
 				course.setCourseName(rs.getString("courseName"));
-				course.setProfessorAssigned(rs.getString(3));
+				course.setDescription(rs.getString(4));
+				course.setFees(rs.getInt("fees"));
 			}
 			else {
 				throw new CourseNotFoundException("course id: " + courseId + "not found");

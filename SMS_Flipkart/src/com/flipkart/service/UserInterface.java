@@ -16,9 +16,9 @@ public interface UserInterface {
 		CatalogInterface catalogOperation = new CatalogOperation();
 		
 		List<Course> courses = catalogOperation.searchAndFetchDetails();
-		logger.info("Course Id\tCourse Name\tProfessor");
+		logger.info("Course Id\tCourse Name\tFees\tCourse Description");
 		
-		courses.forEach(course -> logger.info(course.getCourseId() + "\t\t" + course.getCourseName() + " \t\t" + course.getProfessorAssigned()));
+		courses.forEach(course -> logger.info(course.getCourseId() + "\t\t" + course.getCourseName() + " \t\t"  + course.getFees() + "\t" + course.getDescription()));
 	}
 
 	

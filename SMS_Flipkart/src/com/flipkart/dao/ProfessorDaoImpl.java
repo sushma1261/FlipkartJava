@@ -23,7 +23,7 @@ public class ProfessorDaoImpl implements ProfessorDao {
 	
 	static Connection connection = DBUtil.getConnection();
 	
-	public List<Student> viewStudents(Professor professor){
+	public void viewStudents(Professor professor){
 		PreparedStatement stmt = null;
 		List<Student> studentList = new ArrayList<Student>();
 		
@@ -31,70 +31,36 @@ public class ProfessorDaoImpl implements ProfessorDao {
 			stmt = connection.prepareStatement(SQLQueriesConstants.GET_STUDENTS_TAUGHT);
 			stmt.setInt(1, professor.getProfessorId());
 			ResultSet rs = stmt.executeQuery();
-			logger.info("--------------Student List--------------");
-			logger.info("Course Id \t Student Id\tStudent Name\tBranch\tgender\tSemester");
-			while(rs.next()) {
-				logger.info(rs.getInt("courseId") + "\t\t" + rs.getInt("studentId") + "\t\t" + rs.getString("studentName") + "\t\t" + rs.getString("branch") + "\t" + rs.getString("gender") + "\t" + rs.getInt("semester"));
+			if(rs != null) {
+				logger.info("--------------Student List--------------");
+				logger.info("Course Id \t Student Id\tStudent Name\tBranch\tgender\tSemester");
+				while(rs.next()) {
+					logger.info(rs.getInt("courseId") + "\t\t" + rs.getInt("studentId") + "\t\t" + rs.getString("studentName") + "\t\t" + rs.getString("branch") + "\t" + rs.getString("gender") + "\t" + rs.getInt("semester"));
+				}
+				logger.info("----------------------------------------");
 			}
-			
-			logger.info("----------------------------------------");
 		}catch(SQLException se){
 			logger.error(se.getMessage());
 		}catch(Exception e){
 		  logger.error(e.getMessage());
 		}
-		return studentList;
-	}
-	
-	public Student getStudentDetails(int studentId) {
-		PreparedStatement stmt = null;
-		Student student = new Student();
 		
-		try {
-		
-			stmt = connection.prepareStatement(SQLQueriesConstants.GET_STUDENT_NAME_QUERY);
-			stmt.setInt(1, studentId);
-			ResultSet rs = stmt.executeQuery();
-			while(rs.next()) {
-				student.setName(rs.getString("studentName"));
-				student.setStudentId(rs.getInt("studentId"));
-				student.setBranch(rs.getString("branch"));
-				student.setGender(rs.getString("gender"));
-				student.setSemester(rs.getInt("semester"));
-			}
-			
-		}catch(SQLException se){
-			logger.error(se.getMessage());
-		}catch(Exception e){
-		  logger.error(e.getMessage());
-		}
-		return student;
-			
 	}
 	
 	@Override
 	public List<Course> getCourseTaught(Professor professor) {
-		Set<Integer> courseIdList = getCourseIdTaught(professor);
-		CatalogDao catalogDao = new CatalogDaoImpl();
 		List<Course> courseList = new ArrayList<Course>();
-		courseIdList.forEach(
-				courseId ->   {
-					Course c = catalogDao.viewCourseFromCatalog(courseId);
-					courseList.add(c);
-				}
-				);
-		return courseList;
-	}
-	
-	public Set<Integer> getStudentIdWithCourseId(int courseId) {
-		PreparedStatement stmt = null;
-		Set<Integer> studentIdList = new HashSet<Integer>();
+		PreparedStatement stmt = null; 
 		try {
-			stmt = connection.prepareStatement(SQLQueriesConstants.GET_STUDENT_IDS_FOR_COURSE_QUERY);
-			stmt.setInt(1, courseId);
+			stmt = connection.prepareStatement(SQLQueriesConstants.GET_COURSE_TAUGHT_BY_PROFESSOR);
+			stmt.setInt(1, professor.getProfessorId());
 			ResultSet rs = stmt.executeQuery();
 			while(rs.next()) {
-				studentIdList.add(rs.getInt(1));
+				Course course = new Course();
+				course.setCourseId(rs.getInt(1));
+				course.setCourseName(rs.getString(2));
+				course.setDescription(rs.getString(3));
+				courseList.add(course);
 			}
 			
 		}catch(SQLException se){
@@ -102,26 +68,9 @@ public class ProfessorDaoImpl implements ProfessorDao {
 		}catch(Exception e){
 		  logger.error(e.getMessage());
 		}
-		return studentIdList;
-	}
-	
-		Set<Integer> getCourseIdTaught(Professor professor) {
-		PreparedStatement stmt = null;
-		Set<Integer> courseList = new HashSet<Integer>();
-		try {
-			stmt = connection.prepareStatement(SQLQueriesConstants.GET_COURSE_TAUGHT_BY_PROFESSOR);
-			stmt.setInt(1,professor.getProfessorId());
-			ResultSet rs = stmt.executeQuery();
-			while(rs.next()) {
-				courseList.add(rs.getInt(1));
-			}
-		}catch(SQLException se){
-			logger.error(se.getMessage());
-		}catch(Exception e){
-		  logger.error(e.getMessage());
-		}
 		return courseList;
 	}
+		
 	
 
 	@Override
@@ -157,6 +106,27 @@ public class ProfessorDaoImpl implements ProfessorDao {
 		try {
 			stmt = connection.prepareStatement(SQLQueriesConstants.VALID_COURSE_FOR_PROFESSOR);
 			stmt.setInt(1, professor.getProfessorId());
+			stmt.setInt(2, courseId);
+			ResultSet rs = stmt.executeQuery();
+			if(rs.next()) {
+				count = rs.getInt(1);
+			}
+			stmt.close();
+		}catch(SQLException se){
+			logger.error(se.getMessage());
+		}catch(Exception e){
+		  logger.error(e.getMessage());
+		}
+		return count >= 1;
+		
+	}
+	
+	public static boolean checkValidCourseForStudent(int studentId, int courseId) {
+		PreparedStatement stmt = null;
+		int count = 0;
+		try {
+			stmt = connection.prepareStatement(SQLQueriesConstants.VALID_STUDENT_COURSE);
+			stmt.setInt(1, studentId);
 			stmt.setInt(2, courseId);
 			ResultSet rs = stmt.executeQuery();
 			if(rs.next()) {

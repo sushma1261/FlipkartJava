@@ -3,7 +3,21 @@ package com.flipkart.model;
 public class Course {
 	int courseId;
 	String courseName;
-	String professorAssigned;
+	String description;
+	int fees;
+	int catalogId;
+	/**
+	 * @return the catalogId
+	 */
+	public int getCatalogId() {
+		return catalogId;
+	}
+	/**
+	 * @param catalogId the catalogId to set
+	 */
+	public void setCatalogId(int catalogId) {
+		this.catalogId = catalogId;
+	}
 	/**
 	 * @return the courseId
 	 */
@@ -29,16 +43,29 @@ public class Course {
 		this.courseName = courseName;
 	}
 	/**
-	 * @return the professorAssigned
+	 * @return the description
 	 */
-	public String getProfessorAssigned() {
-		return professorAssigned;
+	public String getDescription() {
+		return description;
 	}
 	/**
-	 * @param professorAssigned the professorAssigned to set
+	 * @param description the description to set
 	 */
-	public void setProfessorAssigned(String professorAssigned) {
-		this.professorAssigned = professorAssigned;
+	public void setDescription(String description) {
+		this.description = description;
 	}
+	/**
+	 * @return the fees
+	 */
+	public int getFees() {
+		return fees;
+	}
+	/**
+	 * @param fees the fees to set
+	 */
+	public void setFees(int fees) {
+		this.fees = fees;
+	}
+	
 	
 }

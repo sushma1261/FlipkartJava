@@ -34,7 +34,7 @@ public class AdminDaoImpl implements AdminDao {
 				User user = new User();
 				user.setUserId(rs.getInt(1));
 				user.setUsername(rs.getString(2));
-				user.setRole(rs.getString(4));
+				user.setRole(rs.getString(3));
 				userList.add(user);
 			}
 			
@@ -75,8 +75,11 @@ public class AdminDaoImpl implements AdminDao {
 			stmt = connection.prepareStatement(SQLQueriesConstants.ADD_NEW_COURSE_QUERY);
 			stmt.setInt(1,course.getCourseId());
 			stmt.setString(2, course.getCourseName());
+			stmt.setInt(3, course.getFees());
+			stmt.setString(4, course.getDescription());
+			stmt.setInt(5,course.getCatalogId());
 			int rows = stmt.executeUpdate();
-			logger.info(rows + " updated");
+			logger.info(rows + " course added");
 		}catch(SQLException se) {
 			logger.error(se.getMessage());
 		}catch(Exception e) {

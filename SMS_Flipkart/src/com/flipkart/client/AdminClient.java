@@ -78,6 +78,16 @@ public class AdminClient {
 		logger.info("Enter course Name");
 		String courseName = sc.nextLine();
 		course.setCourseName(courseName);
+		logger.info("Enter catalog Id");
+		int catalogId = Integer.parseInt(sc.nextLine());
+		course.setCatalogId(catalogId);
+		logger.info("Enter Description");
+		String description = sc.nextLine();
+		course.setDescription(description);
+		logger.info("Enter fee for the course");
+		int fees = Integer.parseInt(sc.nextLine());
+		course.setFees(fees);
+		
 		adminOperation.addNewCourseInCatalog(course);
 	}
 	void deleteCourse() {

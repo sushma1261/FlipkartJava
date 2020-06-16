@@ -31,9 +31,6 @@ public class LoginDaoImpl implements LoginDao {
 			ResultSet rs = stmt.executeQuery();
 			
 			while(rs.next()) {
-//				logger.info(rs.getString("username"));
-//				logger.info(rs.getString("password"));
-//				logger.info(rs.getString("role"));
 				role = rs.getString("role");
 			}
 		}catch(SQLException se){
