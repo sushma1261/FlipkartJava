@@ -4,6 +4,7 @@ package com.flipkart.service;
 import com.flipkart.model.Course;
 import com.flipkart.model.Student;
 
+// Student interface
 public interface StudentInterface extends UserInterface {
 	
 	int numberOfRegisteredCourse(Student student);
@@ -18,12 +19,12 @@ public interface StudentInterface extends UserInterface {
 	void viewRegisteredCourses(Student student);
 	
 	
-	void payFees(int studentId, Student student, int amount);
-	
-	
+	// View Grades 
 	void viewGrades(Student studentId);
 	
+	// Get amount of fees to be paid
 	public int calculateTotalFee(Student student);
+	
 	
 	public void makePayment(Student student, int paymentMethod, int fees);
 }

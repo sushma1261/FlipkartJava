@@ -1,5 +1,6 @@
 package com.flipkart.exception;
 
+//Exception class for user not found exception
 public class UserNotFoundException extends Exception {
 	
 	private static final long serialVersionUID = 1L;

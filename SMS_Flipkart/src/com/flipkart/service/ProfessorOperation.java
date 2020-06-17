@@ -10,6 +10,7 @@ import com.flipkart.model.Course;
 import com.flipkart.model.Professor;
 import com.flipkart.model.Student;
 
+// Class that implements ProfessorInterface
 public class ProfessorOperation implements ProfessorInterface{
 
 	ProfessorDao professorDao = new ProfessorDaoImpl();
@@ -19,8 +20,6 @@ public class ProfessorOperation implements ProfessorInterface{
 		professorDao.viewStudents(professor);
 			
 	}
-
-	
 	
 	@Override
 	public String gradeStudent(Professor professor, int studentId, String grades, int courseId)  {
@@ -28,9 +27,8 @@ public class ProfessorOperation implements ProfessorInterface{
 		return null;
 	}
 
-
 	@Override
-	public void getCourseIdsTaught(Professor professor) {
+	public void getCourseTaught(Professor professor) {
 		logger.info("--------------Course List--------------");
 		logger.info("Course Id\tCourse Name\t\tCourse Description");
 		List<Course> courseIdList = professorDao.getCourseTaught(professor);

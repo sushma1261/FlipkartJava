@@ -6,6 +6,8 @@ import org.apache.log4j.Logger;
 
 import com.flipkart.model.Course;
 
+
+// Default interface for admin, professor and student
 public interface UserInterface {
 	
 	// default function for viewing catalog
@@ -20,7 +22,5 @@ public interface UserInterface {
 		
 		courses.forEach(course -> logger.info(course.getCourseId() + "\t\t" + course.getCourseName() + " \t\t"  + course.getFees() + "\t" + course.getDescription()));
 	}
-
-	
 	
 }

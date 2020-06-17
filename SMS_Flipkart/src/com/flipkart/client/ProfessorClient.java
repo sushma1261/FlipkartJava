@@ -9,21 +9,18 @@ import com.flipkart.model.Professor;
 import com.flipkart.service.ProfessorInterface;
 import com.flipkart.service.ProfessorOperation;
 
+//This is professor client class that gives different options to professor
 
 public class ProfessorClient {
 	
 	private static Logger logger = Logger.getLogger(ProfessorClient.class);
-	
 	ProfessorInterface professorOperation = new ProfessorOperation();
-
 	Scanner sc = new Scanner(System.in);
 	
+	// Display menu for professor
 	public void displayMenu(Professor professor) {
 		
-		
 		int choice;
-		
-		
 		do {
 			logger.info("Enter your choice:");
 			logger.info("1. To view available courses");
@@ -39,7 +36,7 @@ public class ProfessorClient {
 					professorOperation.viewCatalog();
 					break;
 				case 2:
-					professorOperation.getCourseIdsTaught(professor);
+					professorOperation.getCourseTaught(professor);
 					break;
 				case 3:
 					professorOperation.viewStudents(professor);

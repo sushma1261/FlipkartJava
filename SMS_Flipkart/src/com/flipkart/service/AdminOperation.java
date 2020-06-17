@@ -11,6 +11,7 @@ import com.flipkart.model.Course;
 import com.flipkart.model.Professor;
 import com.flipkart.model.User;
 
+// Admin service class that implements AdminInterface
 public class AdminOperation implements AdminInterface {
 
 	private static Logger logger = Logger.getLogger(AdminOperation.class);

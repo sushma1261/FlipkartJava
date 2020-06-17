@@ -15,18 +15,23 @@ import com.flipkart.service.LoginImplementation;
 import com.flipkart.utils.DBUtil;
 import com.flipkart.utils.DateTimeUtil;
 
+//This is user client class that shows options for login and registration
 public class UserClient {
 
 	private static Logger logger = Logger.getLogger(UserClient.class);
 	static Scanner sc = new Scanner(System.in);
+	public static boolean loggedIn; 
+	public static boolean showMenu;
+	
 	public static void main(String[] args) {
+		
 		logger.info("Welcome to student management system!!");
 		UserClient.showMainUserMenu();
 		logger.info("Exited");
 		sc.close();
 	}
-	public static boolean loggedIn; 
-	public static boolean showMenu; 
+	
+	 // Show menu for user
 	public static void showMainUserMenu() {
 		showMenu = true;
 		int choice;
@@ -58,6 +63,7 @@ public class UserClient {
 		}while(showMenu);
 	}
 	
+	// Gathers required information to register a student
 	public void registerStudent() {
 		Student student = new Student();
 		logger.info("Enter student id");
@@ -82,6 +88,7 @@ public class UserClient {
 		loginImpl.registerStudent(student, password);
 	}
 
+	//  Gathers username and password for logging in a user 
 	public void login() {
 //		boolean loggedOut = true;
 		do {
@@ -134,6 +141,7 @@ public class UserClient {
 		}while(loggedIn);
 	}
 	
+	// Logout method
 	public static void logout() {
 		UserClient.loggedIn = false;
 		logger.info("--------------------Logged out at: " + DateTimeUtil.getDateTime() + "--------------------");

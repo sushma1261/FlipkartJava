@@ -6,6 +6,8 @@ import com.flipkart.model.Course;
 import com.flipkart.model.Professor;
 import com.flipkart.model.User;
 
+
+// Interface for admin dao 
 public interface AdminDao {
 	
 	// View Users from database
@@ -19,8 +21,4 @@ public interface AdminDao {
 	
 	// Delete course from catalog
 	public void dropCourse(Course course);
-	
-	// Register new professor
-	
-	// Delete a user
 }

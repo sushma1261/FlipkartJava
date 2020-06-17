@@ -13,14 +13,15 @@ import com.flipkart.exception.CourseNotFoundException;
 import com.flipkart.model.Course;
 import com.flipkart.utils.DBUtil;
 
+// Class that implements CatalogDao
 public class CatalogDaoImpl implements CatalogDao {
 	
 	private static Logger logger = Logger.getLogger(CatalogDaoImpl.class);
 	
 	Connection connection = DBUtil.getConnection();
 	
+	// View all courses in catalog
 	public ArrayList<Course> viewCatalog() {
-		
 		PreparedStatement stmt = null;
 		// Store all courses from result set
 		ArrayList<Course> courseList = new ArrayList<Course>();
@@ -44,6 +45,7 @@ public class CatalogDaoImpl implements CatalogDao {
 		return courseList;
 	}
 	
+	// View details of particular course
 	public Course viewCourseFromCatalog(int courseId) {
 		PreparedStatement stmt = null;
 		Course course = null;

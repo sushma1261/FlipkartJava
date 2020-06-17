@@ -1,5 +1,7 @@
 package com.flipkart.model;
 
+
+// Professor model or bean class
 public class Professor extends User{
 	int professorId;
 	String email;

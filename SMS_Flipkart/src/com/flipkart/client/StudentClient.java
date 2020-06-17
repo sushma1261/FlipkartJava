@@ -9,6 +9,8 @@ import com.flipkart.model.Student;
 import com.flipkart.service.StudentInterface;
 import com.flipkart.service.StudentOperation;
 
+//This is student client class that gives different options to student
+
 public class StudentClient {
 
 	private static Logger logger = Logger.getLogger(StudentClient.class);
@@ -60,6 +62,8 @@ public class StudentClient {
 		
 		
 	}
+	
+	// Show choices
 	void showChoices() {
 		logger.info("Enter your choice:");
 		logger.info("1. To view available courses");
@@ -71,6 +75,7 @@ public class StudentClient {
 		logger.info("0. To logout");
 	}
 	
+	// Gets course id to add for student
 	void chooseCourse() {
 		if(studentOperation.numberOfRegisteredCourse(student) >= 4) {
 			logger.info("You cannot add courses as you have already selected 4 courses");
@@ -83,6 +88,7 @@ public class StudentClient {
 		
 	}
 	
+	// Gets course id to delete from student's registered courses
 	void dropCourse() {
 		Course course1 = new Course();
 		logger.info("Enter course id:");
@@ -91,6 +97,7 @@ public class StudentClient {
 		studentOperation.dropCourse(course1, student);
 	}
 	
+	// print report card for student
 	void printReportCard() {
 		logger.info("--------Report Card--------");
 		logger.info("Course\tGrade");
@@ -98,8 +105,8 @@ public class StudentClient {
 		logger.info("---------------------------");
 	}
 	
+	// Get amount to be paid and make payment
 	void payFees() {
-		// Get amount to be paid
 		int fee = studentOperation.calculateTotalFee(student);
 		logger.info("Want to continue to pay Rs."+ fee + " press 'y' to continue...");
 		if(sc.nextLine().equals("y")) {

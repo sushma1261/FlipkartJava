@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import org.apache.log4j.Logger;
 
+import com.flipkart.model.Admin;
 import com.flipkart.model.Course;
 import com.flipkart.model.Professor;
 import com.flipkart.model.Student;
@@ -11,14 +12,16 @@ import com.flipkart.service.AdminInterface;
 import com.flipkart.service.AdminOperation;
 import com.flipkart.service.LoginImplementation;
 
-
+// This is admin client class that gives different options to admin
 public class AdminClient {
-	
 	private static Logger logger = Logger.getLogger(AdminClient.class);
 	AdminInterface adminOperation = new AdminOperation();
 	LoginImplementation loginImpl = new LoginImplementation();
 	Scanner sc = new Scanner(System.in);
+	
+	// Display menu for the admin
 	public void displayMenu() {
+		
 		int choice;
 		do {
 			showChoices();
@@ -51,7 +54,9 @@ public class AdminClient {
 		sc.close();
 	}
 	
+	// Show available choices
 	void showChoices() {
+		
 		logger.info("Enter your choice:");
 		logger.info("1. To view courses in catalog");
 		logger.info("2. To view users");
@@ -60,17 +65,25 @@ public class AdminClient {
 		logger.info("5. Add a new course to catalog");
 		logger.info("6. Drop a course from catalog");
 		logger.info("0. To logout");
+		
 	}
+	
+	// Gather required inputs to assign a course with a professor
 	void assignProfessor() {
+		
 		logger.info("Enter professor Id");
 		int professorId = Integer.parseInt(sc.nextLine());
 		Professor professor = new Professor();
 		professor.setProfessorId(professorId);
 		logger.info("Enter course Id");
 		int courseId = Integer.parseInt(sc.nextLine());
+		
 		adminOperation.assignProfessor(professor, courseId);
 	}
+	
+	// Gather required inputs to add new courses
 	void addNewCourse() {
+		
 		Course course = new Course();
 		logger.info("Enter course Id");
 		int courseId = Integer.parseInt(sc.nextLine());
@@ -90,6 +103,8 @@ public class AdminClient {
 		
 		adminOperation.addNewCourseInCatalog(course);
 	}
+	
+	// Gather course id to delete a course
 	void deleteCourse() {
 		logger.info("Enter course Id");
 		Course course = new Course();
@@ -98,14 +113,36 @@ public class AdminClient {
 		course.setCourseId(courseId);
 		adminOperation.deleteCourse(course);
 	}
+	
+	// Gather required inputs to add a new user
 	void registerNewUser() {
+		
 		logger.info("Enter 1 to add a new admin");
 		logger.info("Enter 2 to add a new professor");
 		logger.info("Enter 3 to add a new student");
 		int option = Integer.parseInt(sc.nextLine());
+		
 		switch(option) {
+		
 			case 1:
+				Admin admin = new Admin();
+				logger.info("Enter admin id:");
+				admin.setAdminId(Integer.parseInt(sc.nextLine()));
+				logger.info("Enter admin name:");
+				admin.setName(sc.nextLine());
+				logger.info("Enter password");
+				String password = sc.nextLine();
+				logger.info("Enter gender: 'm' for male and 'f' for female");
+				String gender = sc.nextLine();
+				if(gender.equals("m")) {
+					admin.setGender("male");
+				}
+				else {
+					admin.setGender("female");
+				}
+				loginImpl.registerAdmin(admin, password);
 				break;
+				
 			case 2:
 				Professor professor = new Professor();
 				logger.info("Enter professor id:");
@@ -113,9 +150,9 @@ public class AdminClient {
 				logger.info("Enter professor name:");
 				professor.setName(sc.nextLine());
 				logger.info("Enter password");
-				String password = sc.nextLine();
+				password = sc.nextLine();
 				logger.info("Enter gender: 'm' for male and 'f' for female");
-				String gender = sc.nextLine();
+				gender = sc.nextLine();
 				if(gender.equals("m")) {
 					professor.setGender("male");
 				}
@@ -125,6 +162,7 @@ public class AdminClient {
 				
 				loginImpl.registerProfessor(professor, password);
 				break;
+				
 			case 3:
 				Student student = new Student();
 				logger.info("Enter student id:");
@@ -156,6 +194,6 @@ public class AdminClient {
 				loginImpl.registerStudent(student, password);
 				break;
 		}
-		
 	}
+	
 }

@@ -1,9 +1,10 @@
 package com.flipkart.model;
 
+// Admin model or bean class
 public class Admin extends User {
 	int adminId;
-	String email;
 	String name;
+	String gender;
 	/**
 	 * @return the adminId
 	 */
@@ -16,21 +17,19 @@ public class Admin extends User {
 	public void setAdminId(int adminId) {
 		this.adminId = adminId;
 	}
+	
 	/**
-	 * @return the email
+	 * @return the gender
 	 */
-	public String getEmail() {
-		return email;
+	public String getGender() {
+		return gender;
 	}
 	/**
-	 * @param email the email to set
+	 * @param gender the gender to set
 	 */
-	public void setEmail(String email) {
-		this.email = email;
+	public void setGender(String gender) {
+		this.gender = gender;
 	}
-	/**
-	 * @return the name
-	 */
 	public String getName() {
 		return name;
 	}

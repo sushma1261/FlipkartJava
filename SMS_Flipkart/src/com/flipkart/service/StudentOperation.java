@@ -54,11 +54,6 @@ public class StudentOperation implements StudentInterface {
 		}
 	}
 
-	@Override
-	public void payFees(int studentId, Student student, int amount) {
-		
-		
-	}
 
 	@Override
 	public void viewGrades(Student student) {

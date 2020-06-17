@@ -1,5 +1,6 @@
 package com.flipkart.model;
 
+//User model or bean class
 public class User {
 	int userId;
 	String username;

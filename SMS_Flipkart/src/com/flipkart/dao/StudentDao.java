@@ -10,9 +10,6 @@ import com.flipkart.model.Student;
 
 public interface StudentDao {
 	
-//	// Get All courses from DB
-//	public ArrayList<Course> viewCatalog();
-	
 	// To choose courses
 	public boolean chooseCourse(Student student, int courseId) throws CourseNotFoundException;
 	
@@ -26,14 +23,19 @@ public interface StudentDao {
 	// Delete course selected
 	public void dropCourse(int courseId, int studentId) throws CourseNotFoundException;
 	
+	// Check if student has registered for a course
 	public boolean checkRegisteredCourses(Student student, int courseId);
 	
+	// Get number of registered courses
 	public int numberOfRegisteredCourse(Student student);
 	
+	// View Grades
 	public Map<String, String> viewGrades(Student student);
 	
+	// Calculate fees
 	public int calculateTotalFee(Student student);
 	
+	//Proceed for payment
 	public String makePayment(Student student, int paymentMethod, int fees);
 }
 

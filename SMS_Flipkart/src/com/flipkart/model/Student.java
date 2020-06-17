@@ -1,5 +1,7 @@
 package com.flipkart.model;
 
+
+// Student model or bean class
 public class Student extends User {
 	int studentId;
 	String name;

@@ -1,10 +1,13 @@
 package com.flipkart.contants;
 
+
 public class SQLQueriesConstants {
 	
 	//Login query for a user
 	public static String LOGIN_QUERY = "SELECT r.role from Role r join  user u on r.roleId = u.roleId where username = ? and password = ?";
-	public static String REGISTER_USER_QUERY = "insert into user(UserId, username, password, role) values (?,?,?,?)";
+	public static String GET_ROLE_ID_QUERY = "select roleId from role where role = ?";
+	
+	// View Courses
 	public static String VIEW_CATALOG_QUERY = "select courseId, courseName, fees, courseDescription from Course";
 	public static String VIEW_COURSE_QUERY = "select * from Course where courseId = ?";
 	
@@ -33,10 +36,12 @@ public class SQLQueriesConstants {
 	public static String VALID_STUDENT_COURSE = "select count(*) from RegisteredCourses where studentId = ? and courseId = ?";
 	
 	// Admin Queries
+	public static String REGISTER_ADMIN_QUERY = "insert into Admin(adminId, adminName, gender) values(?,?,?)";
 	public static String VIEW_USERS_QUERY = "SELECT  u.userId, u.username, r.role from user u join Role r on r.roleId = u.roleId;";
-	public static String ASSIGN_PROFESSOR_QUERY = "update Course SET professor=? WHERE courseId = ?";
+	public static String UPDATE_COURSE_PROFESSOR_QUERY = "update Course SET professor=? WHERE courseId = ?";
 	public static String ADD_NEW_COURSE_QUERY = "insert into Course(courseId, courseName, fees, courseDescription, catalogId) values (?,?, ?, ?, ?)";
 	public static String DELETE_COURSE_QUERY = "delete from Course where courseId = ?";
-	
+	public static String REGISTER_USER_QUERY = "insert into user(UserId, username, password, roleId) values (?,?,?,?)";
+	public static String ASSIGN_PROFESSOR_QUERY = "insert into ProfessorCourse(courseId, professorId) values (?, ?)";
 	
 }

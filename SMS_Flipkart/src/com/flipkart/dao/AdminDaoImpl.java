@@ -14,13 +14,14 @@ import com.flipkart.model.Professor;
 import com.flipkart.model.User;
 import com.flipkart.utils.DBUtil;
 
+// Class that implements all methods in admin dao
 public class AdminDaoImpl implements AdminDao {
 
 	private static Logger logger = Logger.getLogger(AdminDaoImpl.class);
 	Connection connection = DBUtil.getConnection();
 	
 	
-	
+	// Returns list of users registered to application
 	@Override
 	public ArrayList<User> viewUsers() {
 		PreparedStatement stmt = null;
@@ -48,14 +49,14 @@ public class AdminDaoImpl implements AdminDao {
 	}
 
 
-
+	// Assigns a professor with a particular course
 	@Override
 	public void assignProfessor(Professor professor, int courseId) {
 		PreparedStatement stmt = null;
 		try {
 			stmt = connection.prepareStatement(SQLQueriesConstants.ASSIGN_PROFESSOR_QUERY);
-			stmt.setInt(1, professor.getProfessorId());
-			stmt.setInt(2, courseId);
+			stmt.setInt(2, professor.getProfessorId());
+			stmt.setInt(1, courseId);
 			int rows = stmt.executeUpdate();
 			logger.info(rows + " updated");
 		}catch(SQLException se) {
@@ -67,7 +68,7 @@ public class AdminDaoImpl implements AdminDao {
 	}
 
 
-
+	// Add new course
 	@Override
 	public String addNewCourseInCatalog(Course course) {
 		PreparedStatement stmt = null;
@@ -89,7 +90,7 @@ public class AdminDaoImpl implements AdminDao {
 	}
 
 
-
+	// Drop existing course
 	@Override
 	public void dropCourse(Course course) {
 		PreparedStatement stmt = null;

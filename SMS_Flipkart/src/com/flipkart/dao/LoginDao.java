@@ -1,5 +1,6 @@
 package com.flipkart.dao;
 
+import com.flipkart.model.Admin;
 import com.flipkart.model.Professor;
 import com.flipkart.model.Student;
 
@@ -14,5 +15,8 @@ public interface LoginDao {
 	
 	// register as professor
 	void registerProfessor(Professor professor, String password);
+	
+	// register as admin
+	public void registerAdmin(Admin admin, String password);
 	
 }

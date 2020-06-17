@@ -1,5 +1,7 @@
 package com.flipkart.model;
 
+
+//Course model or bean class
 public class Course {
 	int courseId;
 	String courseName;

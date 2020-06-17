@@ -10021,3 +10021,631 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 07:47:02,897  INFO UserClient,main:36 - Enter any other number to exit
 07:47:04,291 ERROR UserClient,main:55 - --------------------Exiting--------------------
 07:47:04,291  INFO UserClient,main:25 - Exited
+08:36:21,706  INFO UserClient,main:23 - Welcome to student management system!!
+08:36:21,709  INFO UserClient,main:34 - Enter 1 to login
+08:36:21,709  INFO UserClient,main:35 - Enter 2  to register as a student
+08:36:21,709  INFO UserClient,main:36 - Enter any other number to exit
+08:36:26,349  INFO UserClient,main:88 - Enter username
+08:36:29,848  INFO UserClient,main:90 - Enter password
+08:36:34,613  INFO UserClient,main:96 - Successfully logged in as professor
+08:36:34,618  INFO UserClient,main:97 - Logged in at: Wed Jun 17 08:36:34 IST 2020 
+08:36:34,626  INFO ProfessorClient,main:28 - Enter your choice:
+08:36:34,627  INFO ProfessorClient,main:29 - 1. To view available courses
+08:36:34,627  INFO ProfessorClient,main:30 - 2. To view courses taught
+08:36:34,627  INFO ProfessorClient,main:31 - 3. To view students in a course
+08:36:34,628  INFO ProfessorClient,main:32 - 4. Grade a student
+08:36:34,628  INFO ProfessorClient,main:33 - 0. To logout
+08:36:34,761  INFO UserClient,main:139 - --------------------Logged out at: Wed Jun 17 08:36:34 IST 2020 --------------------
+08:36:34,762  INFO UserClient,main:34 - Enter 1 to login
+08:36:34,762  INFO UserClient,main:35 - Enter 2  to register as a student
+08:36:34,763  INFO UserClient,main:36 - Enter any other number to exit
+08:36:36,257  INFO UserClient,main:88 - Enter username
+08:36:37,607  INFO UserClient,main:90 - Enter password
+08:36:39,522  INFO UserClient,main:96 - Successfully logged in as admin
+08:36:39,523  INFO UserClient,main:97 - Logged in at: Wed Jun 17 08:36:39 IST 2020 
+08:36:39,531  INFO AdminClient,main:55 - Enter your choice:
+08:36:39,532  INFO AdminClient,main:56 - 1. To view courses in catalog
+08:36:39,532  INFO AdminClient,main:57 - 2. To view users
+08:36:39,532  INFO AdminClient,main:58 - 3. Assign course to a professor
+08:36:39,532  INFO AdminClient,main:59 - 4. Register a new user
+08:36:39,533  INFO AdminClient,main:60 - 5. Add a new course to catalog
+08:36:39,533  INFO AdminClient,main:61 - 6. Drop a course from catalog
+08:36:39,533  INFO AdminClient,main:62 - 0. To logout
+08:36:43,231  INFO AdminClient,main:102 - Enter 1 to add a new admin
+08:36:43,232  INFO AdminClient,main:103 - Enter 2 to add a new professor
+08:36:43,232  INFO AdminClient,main:104 - Enter 3 to add a new student
+08:36:45,378  INFO AdminClient,main:111 - Enter professor id:
+08:36:50,575  INFO AdminClient,main:113 - Enter professor name:
+08:37:10,076  INFO AdminClient,main:115 - Enter password
+08:37:12,607  INFO AdminClient,main:117 - Enter gender: 'm' for male and 'f' for female
+08:37:15,022 ERROR LoginDaoImpl,main:118 - Unknown column 'role' in 'field list'
+08:37:15,022  INFO AdminClient,main:55 - Enter your choice:
+08:37:15,022  INFO AdminClient,main:56 - 1. To view courses in catalog
+08:37:15,023  INFO AdminClient,main:57 - 2. To view users
+08:37:15,023  INFO AdminClient,main:58 - 3. Assign course to a professor
+08:37:15,023  INFO AdminClient,main:59 - 4. Register a new user
+08:37:15,024  INFO AdminClient,main:60 - 5. Add a new course to catalog
+08:37:15,025  INFO AdminClient,main:61 - 6. Drop a course from catalog
+08:37:15,026  INFO AdminClient,main:62 - 0. To logout
+08:38:32,900  INFO UserClient,main:23 - Welcome to student management system!!
+08:38:32,903  INFO UserClient,main:34 - Enter 1 to login
+08:38:32,904  INFO UserClient,main:35 - Enter 2  to register as a student
+08:38:32,904  INFO UserClient,main:36 - Enter any other number to exit
+08:38:34,969  INFO UserClient,main:88 - Enter username
+08:38:36,544  INFO UserClient,main:90 - Enter password
+08:38:38,567  INFO UserClient,main:96 - Successfully logged in as admin
+08:38:38,576  INFO UserClient,main:97 - Logged in at: Wed Jun 17 08:38:38 IST 2020 
+08:38:38,580  INFO AdminClient,main:55 - Enter your choice:
+08:38:38,581  INFO AdminClient,main:56 - 1. To view courses in catalog
+08:38:38,582  INFO AdminClient,main:57 - 2. To view users
+08:38:38,582  INFO AdminClient,main:58 - 3. Assign course to a professor
+08:38:38,582  INFO AdminClient,main:59 - 4. Register a new user
+08:38:38,583  INFO AdminClient,main:60 - 5. Add a new course to catalog
+08:38:38,583  INFO AdminClient,main:61 - 6. Drop a course from catalog
+08:38:38,583  INFO AdminClient,main:62 - 0. To logout
+08:38:40,971  INFO AdminClient,main:102 - Enter 1 to add a new admin
+08:38:40,973  INFO AdminClient,main:103 - Enter 2 to add a new professor
+08:38:40,973  INFO AdminClient,main:104 - Enter 3 to add a new student
+08:38:42,797  INFO AdminClient,main:130 - Enter student id:
+08:38:48,124 ERROR UserClient,main:131 - For input string: "preethi"
+08:38:48,124  INFO UserClient,main:88 - Enter username
+08:38:54,706  INFO UserClient,main:90 - Enter password
+08:38:55,910  INFO UserClient,main:96 - Successfully logged in as admin
+08:38:55,911  INFO UserClient,main:97 - Logged in at: Wed Jun 17 08:38:55 IST 2020 
+08:38:55,911  INFO AdminClient,main:55 - Enter your choice:
+08:38:55,912  INFO AdminClient,main:56 - 1. To view courses in catalog
+08:38:55,912  INFO AdminClient,main:57 - 2. To view users
+08:38:55,913  INFO AdminClient,main:58 - 3. Assign course to a professor
+08:38:55,914  INFO AdminClient,main:59 - 4. Register a new user
+08:38:55,914  INFO AdminClient,main:60 - 5. Add a new course to catalog
+08:38:55,915  INFO AdminClient,main:61 - 6. Drop a course from catalog
+08:38:55,915  INFO AdminClient,main:62 - 0. To logout
+08:39:00,043  INFO AdminClient,main:102 - Enter 1 to add a new admin
+08:39:00,046  INFO AdminClient,main:103 - Enter 2 to add a new professor
+08:39:00,046  INFO AdminClient,main:104 - Enter 3 to add a new student
+08:39:02,875  INFO AdminClient,main:111 - Enter professor id:
+08:39:06,285  INFO AdminClient,main:113 - Enter professor name:
+08:39:09,690  INFO AdminClient,main:115 - Enter password
+08:39:12,760  INFO AdminClient,main:117 - Enter gender: 'm' for male and 'f' for female
+08:39:14,433 ERROR LoginDaoImpl,main:61 - Duplicate entry 'preethi' for key 'professor.PRIMARY'
+08:39:14,434  INFO AdminClient,main:55 - Enter your choice:
+08:39:14,434  INFO AdminClient,main:56 - 1. To view courses in catalog
+08:39:14,434  INFO AdminClient,main:57 - 2. To view users
+08:39:14,434  INFO AdminClient,main:58 - 3. Assign course to a professor
+08:39:14,435  INFO AdminClient,main:59 - 4. Register a new user
+08:39:14,435  INFO AdminClient,main:60 - 5. Add a new course to catalog
+08:39:14,435  INFO AdminClient,main:61 - 6. Drop a course from catalog
+08:39:14,436  INFO AdminClient,main:62 - 0. To logout
+08:39:40,971  INFO AdminClient,main:102 - Enter 1 to add a new admin
+08:39:40,973  INFO AdminClient,main:103 - Enter 2 to add a new professor
+08:39:40,973  INFO AdminClient,main:104 - Enter 3 to add a new student
+08:39:43,089  INFO AdminClient,main:111 - Enter professor id:
+08:39:46,995  INFO AdminClient,main:113 - Enter professor name:
+08:39:50,513  INFO AdminClient,main:115 - Enter password
+08:39:53,933  INFO AdminClient,main:117 - Enter gender: 'm' for male and 'f' for female
+08:39:55,595 ERROR LoginDaoImpl,main:118 - Unknown column 'role' in 'field list'
+08:39:55,596  INFO AdminClient,main:55 - Enter your choice:
+08:39:55,596  INFO AdminClient,main:56 - 1. To view courses in catalog
+08:39:55,597  INFO AdminClient,main:57 - 2. To view users
+08:39:55,597  INFO AdminClient,main:58 - 3. Assign course to a professor
+08:39:55,597  INFO AdminClient,main:59 - 4. Register a new user
+08:39:55,597  INFO AdminClient,main:60 - 5. Add a new course to catalog
+08:39:55,598  INFO AdminClient,main:61 - 6. Drop a course from catalog
+08:39:55,598  INFO AdminClient,main:62 - 0. To logout
+08:40:53,752  INFO UserClient,main:23 - Welcome to student management system!!
+08:40:53,755  INFO UserClient,main:34 - Enter 1 to login
+08:40:53,755  INFO UserClient,main:35 - Enter 2  to register as a student
+08:40:53,755  INFO UserClient,main:36 - Enter any other number to exit
+08:40:56,075  INFO UserClient,main:88 - Enter username
+08:40:57,440  INFO UserClient,main:90 - Enter password
+08:40:59,467 ERROR LoginDaoImpl,main:37 - Unknown column 'r.role' in 'field list'
+08:40:59,469  INFO UserClient,main:96 - Successfully logged in as 
+08:40:59,473  INFO UserClient,main:97 - Logged in at: Wed Jun 17 08:40:59 IST 2020 
+08:40:59,474 DEBUG UserClient,main:124 - No such user
+08:40:59,474  INFO UserClient,main:88 - Enter username
+08:41:49,149  INFO UserClient,main:23 - Welcome to student management system!!
+08:41:49,156  INFO UserClient,main:34 - Enter 1 to login
+08:41:49,156  INFO UserClient,main:35 - Enter 2  to register as a student
+08:41:49,157  INFO UserClient,main:36 - Enter any other number to exit
+08:41:50,543  INFO UserClient,main:88 - Enter username
+08:41:52,702  INFO UserClient,main:90 - Enter password
+08:41:54,551  INFO UserClient,main:96 - Successfully logged in as admin
+08:41:54,556  INFO UserClient,main:97 - Logged in at: Wed Jun 17 08:41:54 IST 2020 
+08:41:54,560  INFO AdminClient,main:55 - Enter your choice:
+08:41:54,560  INFO AdminClient,main:56 - 1. To view courses in catalog
+08:41:54,561  INFO AdminClient,main:57 - 2. To view users
+08:41:54,561  INFO AdminClient,main:58 - 3. Assign course to a professor
+08:41:54,562  INFO AdminClient,main:59 - 4. Register a new user
+08:41:54,562  INFO AdminClient,main:60 - 5. Add a new course to catalog
+08:41:54,562  INFO AdminClient,main:61 - 6. Drop a course from catalog
+08:41:54,563  INFO AdminClient,main:62 - 0. To logout
+08:41:55,217  INFO AdminClient,main:102 - Enter 1 to add a new admin
+08:41:55,218  INFO AdminClient,main:103 - Enter 2 to add a new professor
+08:41:55,218  INFO AdminClient,main:104 - Enter 3 to add a new student
+08:42:15,706  INFO AdminClient,main:111 - Enter professor id:
+08:42:17,697  INFO AdminClient,main:113 - Enter professor name:
+08:42:20,374  INFO AdminClient,main:115 - Enter password
+08:42:23,280  INFO AdminClient,main:117 - Enter gender: 'm' for male and 'f' for female
+08:42:24,985  INFO LoginDaoImpl,main:111 - Successfully registered
+08:42:24,986  INFO AdminClient,main:55 - Enter your choice:
+08:42:24,986  INFO AdminClient,main:56 - 1. To view courses in catalog
+08:42:24,987  INFO AdminClient,main:57 - 2. To view users
+08:42:24,988  INFO AdminClient,main:58 - 3. Assign course to a professor
+08:42:24,988  INFO AdminClient,main:59 - 4. Register a new user
+08:42:24,989  INFO AdminClient,main:60 - 5. Add a new course to catalog
+08:42:24,989  INFO AdminClient,main:61 - 6. Drop a course from catalog
+08:42:24,990  INFO AdminClient,main:62 - 0. To logout
+08:42:29,255  INFO AdminOperation,main:46 - --Professors are:--
+08:42:29,266  INFO AdminOperation,main:67 - 1	sushma
+08:42:29,267  INFO AdminOperation,main:67 - 2	vishnu
+08:42:29,267  INFO AdminOperation,main:67 - 3	roja
+08:42:29,267  INFO AdminOperation,main:67 - 12	nagu
+08:42:29,282  INFO AdminOperation,main:67 - 72	preethi
+08:42:29,282  INFO AdminOperation,main:49 - --Students are:--
+08:42:29,282  INFO AdminOperation,main:67 - 4	abcd
+08:42:29,283  INFO AdminOperation,main:67 - 23	aa
+08:42:29,283  INFO AdminOperation,main:67 - 89	rishi
+08:42:29,283  INFO AdminOperation,main:67 - 123	pradeep
+08:42:29,283  INFO AdminOperation,main:67 - 1245	asd
+08:42:29,284  INFO AdminOperation,main:67 - 1270	jahnavi
+08:42:29,284  INFO AdminOperation,main:52 - --Admins are:--
+08:42:29,285  INFO AdminOperation,main:67 - 5	xyz
+08:42:29,285  INFO AdminClient,main:55 - Enter your choice:
+08:42:29,285  INFO AdminClient,main:56 - 1. To view courses in catalog
+08:42:29,286  INFO AdminClient,main:57 - 2. To view users
+08:42:29,286  INFO AdminClient,main:58 - 3. Assign course to a professor
+08:42:29,286  INFO AdminClient,main:59 - 4. Register a new user
+08:42:29,286  INFO AdminClient,main:60 - 5. Add a new course to catalog
+08:42:29,287  INFO AdminClient,main:61 - 6. Drop a course from catalog
+08:42:29,287  INFO AdminClient,main:62 - 0. To logout
+08:42:56,538  INFO UserClient,main:139 - --------------------Logged out at: Wed Jun 17 08:42:56 IST 2020 --------------------
+08:42:56,544  INFO UserClient,main:34 - Enter 1 to login
+08:42:56,544  INFO UserClient,main:35 - Enter 2  to register as a student
+08:42:56,544  INFO UserClient,main:36 - Enter any other number to exit
+08:42:57,207 ERROR UserClient,main:55 - --------------------Exiting--------------------
+08:42:57,207  INFO UserClient,main:25 - Exited
+11:23:31,382 ERROR UserClient,main:131 - 
+19:19:02,807  INFO UserClient,main:23 - Welcome to student management system!!
+19:19:02,812  INFO UserClient,main:34 - Enter 1 to login
+19:19:02,812  INFO UserClient,main:35 - Enter 2  to register as a student
+19:19:02,812  INFO UserClient,main:36 - Enter any other number to exit
+19:19:05,102  INFO UserClient,main:88 - Enter username
+19:19:07,260  INFO UserClient,main:90 - Enter password
+19:19:09,366  INFO UserClient,main:96 - Successfully logged in as admin
+19:19:09,370  INFO UserClient,main:97 - Logged in at: Wed Jun 17 19:19:09 IST 2020 
+19:19:09,375  INFO AdminClient,main:56 - Enter your choice:
+19:19:09,376  INFO AdminClient,main:57 - 1. To view courses in catalog
+19:19:09,376  INFO AdminClient,main:58 - 2. To view users
+19:19:09,376  INFO AdminClient,main:59 - 3. Assign course to a professor
+19:19:09,377  INFO AdminClient,main:60 - 4. Register a new user
+19:19:09,377  INFO AdminClient,main:61 - 5. Add a new course to catalog
+19:19:09,377  INFO AdminClient,main:62 - 6. Drop a course from catalog
+19:19:09,378  INFO AdminClient,main:63 - 0. To logout
+19:19:13,734  INFO AdminClient,main:103 - Enter 1 to add a new admin
+19:19:13,735  INFO AdminClient,main:104 - Enter 2 to add a new professor
+19:19:13,736  INFO AdminClient,main:105 - Enter 3 to add a new student
+19:19:18,594  INFO AdminClient,main:110 - Enter admin id:
+19:19:24,382 ERROR UserClient,main:131 - For input string: "admin1"
+19:19:24,383  INFO UserClient,main:88 - Enter username
+19:19:30,459  INFO UserClient,main:90 - Enter password
+19:19:31,372  INFO UserClient,main:96 - Successfully logged in as admin
+19:19:31,373  INFO UserClient,main:97 - Logged in at: Wed Jun 17 19:19:31 IST 2020 
+19:19:31,374  INFO AdminClient,main:56 - Enter your choice:
+19:19:31,374  INFO AdminClient,main:57 - 1. To view courses in catalog
+19:19:31,375  INFO AdminClient,main:58 - 2. To view users
+19:19:31,375  INFO AdminClient,main:59 - 3. Assign course to a professor
+19:19:31,375  INFO AdminClient,main:60 - 4. Register a new user
+19:19:31,376  INFO AdminClient,main:61 - 5. Add a new course to catalog
+19:19:31,376  INFO AdminClient,main:62 - 6. Drop a course from catalog
+19:19:31,376  INFO AdminClient,main:63 - 0. To logout
+19:19:34,032  INFO AdminClient,main:103 - Enter 1 to add a new admin
+19:19:34,033  INFO AdminClient,main:104 - Enter 2 to add a new professor
+19:19:34,034  INFO AdminClient,main:105 - Enter 3 to add a new student
+19:19:35,851  INFO AdminClient,main:110 - Enter admin id:
+19:19:44,152  INFO AdminClient,main:112 - Enter admin name:
+19:19:47,647  INFO AdminClient,main:114 - Enter password
+19:19:50,282  INFO AdminClient,main:116 - Enter gender: 'm' for male and 'f' for female
+19:19:53,138  INFO LoginDaoImpl,main:112 - Successfully registered
+19:19:53,139  INFO AdminClient,main:56 - Enter your choice:
+19:19:53,139  INFO AdminClient,main:57 - 1. To view courses in catalog
+19:19:53,139  INFO AdminClient,main:58 - 2. To view users
+19:19:53,139  INFO AdminClient,main:59 - 3. Assign course to a professor
+19:19:53,140  INFO AdminClient,main:60 - 4. Register a new user
+19:19:53,140  INFO AdminClient,main:61 - 5. Add a new course to catalog
+19:19:53,140  INFO AdminClient,main:62 - 6. Drop a course from catalog
+19:19:53,140  INFO AdminClient,main:63 - 0. To logout
+19:19:56,801  INFO AdminOperation,main:46 - --Professors are:--
+19:19:56,803  INFO AdminOperation,main:67 - 1	sushma
+19:19:56,804  INFO AdminOperation,main:67 - 2	vishnu
+19:19:56,804  INFO AdminOperation,main:67 - 3	roja
+19:19:56,804  INFO AdminOperation,main:67 - 12	nagu
+19:19:56,804  INFO AdminOperation,main:67 - 72	preethi
+19:19:56,804  INFO AdminOperation,main:49 - --Students are:--
+19:19:56,804  INFO AdminOperation,main:67 - 4	abcd
+19:19:56,805  INFO AdminOperation,main:67 - 23	aa
+19:19:56,805  INFO AdminOperation,main:67 - 89	rishi
+19:19:56,805  INFO AdminOperation,main:67 - 123	pradeep
+19:19:56,805  INFO AdminOperation,main:67 - 1245	asd
+19:19:56,805  INFO AdminOperation,main:67 - 1270	jahnavi
+19:19:56,806  INFO AdminOperation,main:52 - --Admins are:--
+19:19:56,806  INFO AdminOperation,main:67 - 5	xyz
+19:19:56,806  INFO AdminOperation,main:67 - 90	admin1
+19:19:56,806  INFO AdminClient,main:56 - Enter your choice:
+19:19:56,807  INFO AdminClient,main:57 - 1. To view courses in catalog
+19:19:56,807  INFO AdminClient,main:58 - 2. To view users
+19:19:56,807  INFO AdminClient,main:59 - 3. Assign course to a professor
+19:19:56,807  INFO AdminClient,main:60 - 4. Register a new user
+19:19:56,807  INFO AdminClient,main:61 - 5. Add a new course to catalog
+19:19:56,808  INFO AdminClient,main:62 - 6. Drop a course from catalog
+19:19:56,808  INFO AdminClient,main:63 - 0. To logout
+19:20:04,598  INFO AdminClient,main:103 - Enter 1 to add a new admin
+19:20:04,599  INFO AdminClient,main:104 - Enter 2 to add a new professor
+19:20:04,599  INFO AdminClient,main:105 - Enter 3 to add a new student
+19:20:06,960  INFO AdminClient,main:128 - Enter professor id:
+19:20:12,993  INFO AdminClient,main:130 - Enter professor name:
+19:20:14,553  INFO AdminClient,main:132 - Enter password
+19:20:15,640  INFO AdminClient,main:134 - Enter gender: 'm' for male and 'f' for female
+19:20:18,864 ERROR LoginDaoImpl,main:119 - Duplicate entry '1270' for key 'user.PRIMARY'
+19:20:18,864  INFO AdminClient,main:56 - Enter your choice:
+19:20:18,864  INFO AdminClient,main:57 - 1. To view courses in catalog
+19:20:18,864  INFO AdminClient,main:58 - 2. To view users
+19:20:18,865  INFO AdminClient,main:59 - 3. Assign course to a professor
+19:20:18,865  INFO AdminClient,main:60 - 4. Register a new user
+19:20:18,865  INFO AdminClient,main:61 - 5. Add a new course to catalog
+19:20:18,865  INFO AdminClient,main:62 - 6. Drop a course from catalog
+19:20:18,865  INFO AdminClient,main:63 - 0. To logout
+19:25:30,837  INFO UserClient,main:23 - Welcome to student management system!!
+19:25:30,841  INFO UserClient,main:34 - Enter 1 to login
+19:25:30,841  INFO UserClient,main:35 - Enter 2  to register as a student
+19:25:30,841  INFO UserClient,main:36 - Enter any other number to exit
+19:25:33,039  INFO UserClient,main:88 - Enter username
+19:25:35,093  INFO UserClient,main:90 - Enter password
+19:25:37,092  INFO UserClient,main:96 - Successfully logged in as admin
+19:25:37,097  INFO UserClient,main:97 - Logged in at: Wed Jun 17 19:25:37 IST 2020 
+19:25:37,101  INFO AdminClient,main:56 - Enter your choice:
+19:25:37,102  INFO AdminClient,main:57 - 1. To view courses in catalog
+19:25:37,102  INFO AdminClient,main:58 - 2. To view users
+19:25:37,103  INFO AdminClient,main:59 - 3. Assign course to a professor
+19:25:37,103  INFO AdminClient,main:60 - 4. Register a new user
+19:25:37,103  INFO AdminClient,main:61 - 5. Add a new course to catalog
+19:25:37,104  INFO AdminClient,main:62 - 6. Drop a course from catalog
+19:25:37,104  INFO AdminClient,main:63 - 0. To logout
+19:25:42,140  INFO AdminClient,main:103 - Enter 1 to add a new admin
+19:25:42,141  INFO AdminClient,main:104 - Enter 2 to add a new professor
+19:25:42,142  INFO AdminClient,main:105 - Enter 3 to add a new student
+19:25:43,852  INFO AdminClient,main:110 - Enter admin id:
+19:25:48,097  INFO AdminClient,main:112 - Enter admin name:
+19:25:50,444  INFO AdminClient,main:114 - Enter password
+19:25:51,301  INFO AdminClient,main:116 - Enter gender: 'm' for male and 'f' for female
+19:25:53,272 ERROR LoginDaoImpl,main:128 - Duplicate entry '1270' for key 'user.PRIMARY'
+19:25:53,273  INFO LoginDaoImpl,main:182 - Couldn't register please try again!!
+19:25:53,274  INFO AdminClient,main:56 - Enter your choice:
+19:25:53,274  INFO AdminClient,main:57 - 1. To view courses in catalog
+19:25:53,274  INFO AdminClient,main:58 - 2. To view users
+19:25:53,275  INFO AdminClient,main:59 - 3. Assign course to a professor
+19:25:53,275  INFO AdminClient,main:60 - 4. Register a new user
+19:25:53,275  INFO AdminClient,main:61 - 5. Add a new course to catalog
+19:25:53,276  INFO AdminClient,main:62 - 6. Drop a course from catalog
+19:25:53,276  INFO AdminClient,main:63 - 0. To logout
+19:25:59,147  INFO AdminClient,main:103 - Enter 1 to add a new admin
+19:25:59,147  INFO AdminClient,main:104 - Enter 2 to add a new professor
+19:25:59,147  INFO AdminClient,main:105 - Enter 3 to add a new student
+19:25:59,671  INFO AdminClient,main:110 - Enter admin id:
+19:26:10,180  INFO AdminClient,main:112 - Enter admin name:
+19:26:14,401  INFO AdminClient,main:114 - Enter password
+19:26:17,388  INFO AdminClient,main:116 - Enter gender: 'm' for male and 'f' for female
+19:26:19,444  INFO LoginDaoImpl,main:170 - Successfully registered
+19:26:19,444  INFO AdminClient,main:56 - Enter your choice:
+19:26:19,445  INFO AdminClient,main:57 - 1. To view courses in catalog
+19:26:19,445  INFO AdminClient,main:58 - 2. To view users
+19:26:19,445  INFO AdminClient,main:59 - 3. Assign course to a professor
+19:26:19,445  INFO AdminClient,main:60 - 4. Register a new user
+19:26:19,445  INFO AdminClient,main:61 - 5. Add a new course to catalog
+19:26:19,446  INFO AdminClient,main:62 - 6. Drop a course from catalog
+19:26:19,446  INFO AdminClient,main:63 - 0. To logout
+19:26:32,422  INFO AdminClient,main:103 - Enter 1 to add a new admin
+19:26:32,423  INFO AdminClient,main:104 - Enter 2 to add a new professor
+19:26:32,423  INFO AdminClient,main:105 - Enter 3 to add a new student
+19:27:13,965  INFO AdminClient,main:128 - Enter professor id:
+19:27:16,502  INFO AdminClient,main:130 - Enter professor name:
+19:27:30,145  INFO AdminClient,main:132 - Enter password
+19:27:32,733  INFO AdminClient,main:134 - Enter gender: 'm' for male and 'f' for female
+19:27:35,181  INFO LoginDaoImpl,main:57 - Successfully registered
+19:27:35,182  INFO AdminClient,main:56 - Enter your choice:
+19:27:35,182  INFO AdminClient,main:57 - 1. To view courses in catalog
+19:27:35,183  INFO AdminClient,main:58 - 2. To view users
+19:27:35,183  INFO AdminClient,main:59 - 3. Assign course to a professor
+19:27:35,183  INFO AdminClient,main:60 - 4. Register a new user
+19:27:35,183  INFO AdminClient,main:61 - 5. Add a new course to catalog
+19:27:35,184  INFO AdminClient,main:62 - 6. Drop a course from catalog
+19:27:35,184  INFO AdminClient,main:63 - 0. To logout
+19:27:58,260  INFO AdminClient,main:103 - Enter 1 to add a new admin
+19:27:58,261  INFO AdminClient,main:104 - Enter 2 to add a new professor
+19:27:58,261  INFO AdminClient,main:105 - Enter 3 to add a new student
+19:27:59,959  INFO AdminClient,main:147 - Enter student id:
+19:28:02,886  INFO AdminClient,main:149 - Enter student name:
+19:28:08,774  INFO AdminClient,main:151 - Enter password
+19:28:12,597  INFO AdminClient,main:153 - Enter branch:
+19:28:18,794  INFO AdminClient,main:155 - Enter gender: 'm' for male and 'f' for female
+19:28:21,072  INFO AdminClient,main:163 - Enter semester:
+19:28:23,416  INFO AdminClient,main:165 - Enter 1 if student has scholarship or 0 if student doesn't have any scholarship:
+19:28:27,065  INFO LoginDaoImpl,main:93 - Successfully registered
+19:28:27,066  INFO AdminClient,main:56 - Enter your choice:
+19:28:27,066  INFO AdminClient,main:57 - 1. To view courses in catalog
+19:28:27,066  INFO AdminClient,main:58 - 2. To view users
+19:28:27,066  INFO AdminClient,main:59 - 3. Assign course to a professor
+19:28:27,067  INFO AdminClient,main:60 - 4. Register a new user
+19:28:27,067  INFO AdminClient,main:61 - 5. Add a new course to catalog
+19:28:27,067  INFO AdminClient,main:62 - 6. Drop a course from catalog
+19:28:27,068  INFO AdminClient,main:63 - 0. To logout
+19:28:37,347  INFO UserClient,main:139 - --------------------Logged out at: Wed Jun 17 19:28:37 IST 2020 --------------------
+19:28:37,347  INFO UserClient,main:34 - Enter 1 to login
+19:28:37,347  INFO UserClient,main:35 - Enter 2  to register as a student
+19:28:37,348  INFO UserClient,main:36 - Enter any other number to exit
+19:29:01,746  INFO UserClient,main:23 - Welcome to student management system!!
+19:29:01,750  INFO UserClient,main:34 - Enter 1 to login
+19:29:01,750  INFO UserClient,main:35 - Enter 2  to register as a student
+19:29:01,751  INFO UserClient,main:36 - Enter any other number to exit
+19:29:04,241  INFO UserClient,main:88 - Enter username
+19:29:06,982  INFO UserClient,main:90 - Enter password
+19:29:09,088  INFO UserClient,main:96 - Successfully logged in as student
+19:29:09,101  INFO UserClient,main:97 - Logged in at: Wed Jun 17 19:29:09 IST 2020 
+19:29:09,124  INFO StudentClient,main:64 - Enter your choice:
+19:29:09,125  INFO StudentClient,main:65 - 1. To view available courses
+19:29:09,125  INFO StudentClient,main:66 - 2. To choose a course
+19:29:09,125  INFO StudentClient,main:67 - 3. To drop a course
+19:29:09,126  INFO StudentClient,main:68 - 4. View registered courses
+19:29:09,126  INFO StudentClient,main:69 - 5. Pay fees
+19:29:09,126  INFO StudentClient,main:70 - 6. View grades
+19:29:09,127  INFO StudentClient,main:71 - 0. To logout
+19:29:14,882  INFO UserInterface,main:19 - Course Id	Course Name	Fees	Course Description
+19:29:14,883  INFO UserInterface,main:21 - 1		Java 		1000	Java course
+19:29:14,884  INFO UserInterface,main:21 - 2		C++ 		1000	C++ Course for begginers
+19:29:14,884  INFO UserInterface,main:21 - 3		C 		1000	C
+19:29:14,885  INFO UserInterface,main:21 - 4		Computer network 		1000	CN
+19:29:14,885  INFO UserInterface,main:21 - 5		OS 		1000	OS
+19:29:14,885  INFO StudentClient,main:64 - Enter your choice:
+19:29:14,886  INFO StudentClient,main:65 - 1. To view available courses
+19:29:14,886  INFO StudentClient,main:66 - 2. To choose a course
+19:29:14,886  INFO StudentClient,main:67 - 3. To drop a course
+19:29:14,889  INFO StudentClient,main:68 - 4. View registered courses
+19:29:14,889  INFO StudentClient,main:69 - 5. Pay fees
+19:29:14,890  INFO StudentClient,main:70 - 6. View grades
+19:29:14,890  INFO StudentClient,main:71 - 0. To logout
+19:29:16,201  INFO StudentClient,main:79 - Enter courseId
+19:29:18,906 ERROR CatalogDaoImpl,main:67 - 
+19:29:18,906 ERROR StudentOperation,main:26 - course with id 56not found
+19:29:18,907  INFO StudentClient,main:64 - Enter your choice:
+19:29:18,907  INFO StudentClient,main:65 - 1. To view available courses
+19:29:18,919  INFO StudentClient,main:66 - 2. To choose a course
+19:29:18,920  INFO StudentClient,main:67 - 3. To drop a course
+19:29:18,920  INFO StudentClient,main:68 - 4. View registered courses
+19:29:18,923  INFO StudentClient,main:69 - 5. Pay fees
+19:29:18,924  INFO StudentClient,main:70 - 6. View grades
+19:29:18,924  INFO StudentClient,main:71 - 0. To logout
+19:29:27,716  INFO StudentOperation,main:52 - Course Id	Course Name
+19:29:27,717  INFO StudentOperation,main:53 - 1		 Java
+19:29:27,717  INFO StudentOperation,main:53 - 2		 C++
+19:29:27,717  INFO StudentOperation,main:53 - 5		 OS
+19:29:27,717  INFO StudentClient,main:64 - Enter your choice:
+19:29:27,718  INFO StudentClient,main:65 - 1. To view available courses
+19:29:27,718  INFO StudentClient,main:66 - 2. To choose a course
+19:29:27,718  INFO StudentClient,main:67 - 3. To drop a course
+19:29:27,718  INFO StudentClient,main:68 - 4. View registered courses
+19:29:27,718  INFO StudentClient,main:69 - 5. Pay fees
+19:29:27,719  INFO StudentClient,main:70 - 6. View grades
+19:29:27,719  INFO StudentClient,main:71 - 0. To logout
+19:29:32,764  INFO StudentClient,main:95 - --------Report Card--------
+19:29:32,765  INFO StudentClient,main:96 - Course	Grade
+19:29:32,770  INFO StudentOperation,main:66 - Java	A+
+19:29:32,770  INFO StudentOperation,main:66 - C++	A
+19:29:32,771  INFO StudentOperation,main:66 - OS	null
+19:29:32,771  INFO StudentClient,main:98 - ---------------------------
+19:29:32,771  INFO StudentClient,main:64 - Enter your choice:
+19:29:32,772  INFO StudentClient,main:65 - 1. To view available courses
+19:29:32,772  INFO StudentClient,main:66 - 2. To choose a course
+19:29:32,773  INFO StudentClient,main:67 - 3. To drop a course
+19:29:32,773  INFO StudentClient,main:68 - 4. View registered courses
+19:29:32,773  INFO StudentClient,main:69 - 5. Pay fees
+19:29:32,774  INFO StudentClient,main:70 - 6. View grades
+19:29:32,774  INFO StudentClient,main:71 - 0. To logout
+19:29:35,731  INFO UserClient,main:139 - --------------------Logged out at: Wed Jun 17 19:29:35 IST 2020 --------------------
+19:29:35,731  INFO UserClient,main:34 - Enter 1 to login
+19:29:35,731  INFO UserClient,main:35 - Enter 2  to register as a student
+19:29:35,732  INFO UserClient,main:36 - Enter any other number to exit
+19:29:42,243  INFO UserClient,main:88 - Enter username
+19:29:47,026  INFO UserClient,main:90 - Enter password
+19:29:48,524  INFO UserClient,main:96 - Successfully logged in as professor
+19:29:48,525  INFO UserClient,main:97 - Logged in at: Wed Jun 17 19:29:48 IST 2020 
+19:29:48,535  INFO ProfessorClient,main:28 - Enter your choice:
+19:29:48,535  INFO ProfessorClient,main:29 - 1. To view available courses
+19:29:48,535  INFO ProfessorClient,main:30 - 2. To view courses taught
+19:29:48,535  INFO ProfessorClient,main:31 - 3. To view students in a course
+19:29:48,536  INFO ProfessorClient,main:32 - 4. Grade a student
+19:29:48,536  INFO ProfessorClient,main:33 - 0. To logout
+19:29:50,177  INFO UserInterface,main:19 - Course Id	Course Name	Fees	Course Description
+19:29:50,178  INFO UserInterface,main:21 - 1		Java 		1000	Java course
+19:29:50,178  INFO UserInterface,main:21 - 2		C++ 		1000	C++ Course for begginers
+19:29:50,178  INFO UserInterface,main:21 - 3		C 		1000	C
+19:29:50,179  INFO UserInterface,main:21 - 4		Computer network 		1000	CN
+19:29:50,179  INFO UserInterface,main:21 - 5		OS 		1000	OS
+19:29:50,179  INFO ProfessorClient,main:28 - Enter your choice:
+19:29:50,180  INFO ProfessorClient,main:29 - 1. To view available courses
+19:29:50,180  INFO ProfessorClient,main:30 - 2. To view courses taught
+19:29:50,180  INFO ProfessorClient,main:31 - 3. To view students in a course
+19:29:50,180  INFO ProfessorClient,main:32 - 4. Grade a student
+19:29:50,181  INFO ProfessorClient,main:33 - 0. To logout
+19:29:51,781  INFO ProfessorOperation,main:34 - --------------Course List--------------
+19:29:51,781  INFO ProfessorOperation,main:35 - Course Id	Course Name		Course Description
+19:29:51,787  INFO ProfessorOperation,main:38 - 1		Java			Java course
+19:29:51,788  INFO ProfessorOperation,main:38 - 2		C++			C++ Course for begginers
+19:29:51,789  INFO ProfessorOperation,main:40 - ----------------------------------------
+19:29:51,789  INFO ProfessorClient,main:28 - Enter your choice:
+19:29:51,789  INFO ProfessorClient,main:29 - 1. To view available courses
+19:29:51,790  INFO ProfessorClient,main:30 - 2. To view courses taught
+19:29:51,790  INFO ProfessorClient,main:31 - 3. To view students in a course
+19:29:51,790  INFO ProfessorClient,main:32 - 4. Grade a student
+19:29:51,791  INFO ProfessorClient,main:33 - 0. To logout
+19:29:52,950  INFO ProfessorDaoImpl,main:35 - --------------Student List--------------
+19:29:52,950  INFO ProfessorDaoImpl,main:36 - Course Id 	 Student Id	Student Name	Branch	gender	Semester
+19:29:52,951  INFO ProfessorDaoImpl,main:38 - 1		4		abcd		it	male	1
+19:29:52,952  INFO ProfessorDaoImpl,main:38 - 1		89		rishi		ece	male	1
+19:29:52,952  INFO ProfessorDaoImpl,main:38 - 2		4		abcd		it	male	1
+19:29:52,953  INFO ProfessorDaoImpl,main:38 - 2		23		aa		iy	female	2
+19:29:52,954  INFO ProfessorDaoImpl,main:40 - ----------------------------------------
+19:29:52,954  INFO ProfessorClient,main:28 - Enter your choice:
+19:29:52,954  INFO ProfessorClient,main:29 - 1. To view available courses
+19:29:52,955  INFO ProfessorClient,main:30 - 2. To view courses taught
+19:29:52,955  INFO ProfessorClient,main:31 - 3. To view students in a course
+19:29:52,955  INFO ProfessorClient,main:32 - 4. Grade a student
+19:29:52,955  INFO ProfessorClient,main:33 - 0. To logout
+19:30:13,671  INFO UserClient,main:139 - --------------------Logged out at: Wed Jun 17 19:30:13 IST 2020 --------------------
+19:30:13,672  INFO UserClient,main:34 - Enter 1 to login
+19:30:13,672  INFO UserClient,main:35 - Enter 2  to register as a student
+19:30:13,672  INFO UserClient,main:36 - Enter any other number to exit
+19:30:16,377  INFO UserClient,main:88 - Enter username
+19:30:17,749  INFO UserClient,main:90 - Enter password
+19:30:18,874  INFO UserClient,main:96 - Successfully logged in as admin
+19:30:18,875  INFO UserClient,main:97 - Logged in at: Wed Jun 17 19:30:18 IST 2020 
+19:30:18,879  INFO AdminClient,main:56 - Enter your choice:
+19:30:18,879  INFO AdminClient,main:57 - 1. To view courses in catalog
+19:30:18,880  INFO AdminClient,main:58 - 2. To view users
+19:30:18,881  INFO AdminClient,main:59 - 3. Assign course to a professor
+19:30:18,881  INFO AdminClient,main:60 - 4. Register a new user
+19:30:18,881  INFO AdminClient,main:61 - 5. Add a new course to catalog
+19:30:18,881  INFO AdminClient,main:62 - 6. Drop a course from catalog
+19:30:18,882  INFO AdminClient,main:63 - 0. To logout
+19:30:20,997  INFO UserInterface,main:19 - Course Id	Course Name	Fees	Course Description
+19:30:20,997  INFO UserInterface,main:21 - 1		Java 		1000	Java course
+19:30:20,998  INFO UserInterface,main:21 - 2		C++ 		1000	C++ Course for begginers
+19:30:20,998  INFO UserInterface,main:21 - 3		C 		1000	C
+19:30:20,999  INFO UserInterface,main:21 - 4		Computer network 		1000	CN
+19:30:20,999  INFO UserInterface,main:21 - 5		OS 		1000	OS
+19:30:20,999  INFO AdminClient,main:56 - Enter your choice:
+19:30:21,000  INFO AdminClient,main:57 - 1. To view courses in catalog
+19:30:21,000  INFO AdminClient,main:58 - 2. To view users
+19:30:21,000  INFO AdminClient,main:59 - 3. Assign course to a professor
+19:30:21,001  INFO AdminClient,main:60 - 4. Register a new user
+19:30:21,001  INFO AdminClient,main:61 - 5. Add a new course to catalog
+19:30:21,001  INFO AdminClient,main:62 - 6. Drop a course from catalog
+19:30:21,001  INFO AdminClient,main:63 - 0. To logout
+19:30:22,718  INFO AdminOperation,main:46 - --Professors are:--
+19:30:22,721  INFO AdminOperation,main:67 - 1	sushma
+19:30:22,722  INFO AdminOperation,main:67 - 2	vishnu
+19:30:22,722  INFO AdminOperation,main:67 - 3	roja
+19:30:22,722  INFO AdminOperation,main:67 - 12	nagu
+19:30:22,723  INFO AdminOperation,main:67 - 72	preethi
+19:30:22,723  INFO AdminOperation,main:49 - --Students are:--
+19:30:22,723  INFO AdminOperation,main:67 - 4	abcd
+19:30:22,724  INFO AdminOperation,main:67 - 23	aa
+19:30:22,724  INFO AdminOperation,main:67 - 43	krishna
+19:30:22,724  INFO AdminOperation,main:67 - 89	rishi
+19:30:22,725  INFO AdminOperation,main:67 - 123	pradeep
+19:30:22,725  INFO AdminOperation,main:67 - 1245	asd
+19:30:22,725  INFO AdminOperation,main:67 - 1270	jahnavi
+19:30:22,725  INFO AdminOperation,main:52 - --Admins are:--
+19:30:22,725  INFO AdminOperation,main:67 - 5	xyz
+19:30:22,726  INFO AdminOperation,main:67 - 34	harish
+19:30:22,726  INFO AdminOperation,main:67 - 90	admin1
+19:30:22,726  INFO AdminOperation,main:67 - 98	radha
+19:30:22,726  INFO AdminClient,main:56 - Enter your choice:
+19:30:22,726  INFO AdminClient,main:57 - 1. To view courses in catalog
+19:30:22,726  INFO AdminClient,main:58 - 2. To view users
+19:30:22,726  INFO AdminClient,main:59 - 3. Assign course to a professor
+19:30:22,727  INFO AdminClient,main:60 - 4. Register a new user
+19:30:22,727  INFO AdminClient,main:61 - 5. Add a new course to catalog
+19:30:22,727  INFO AdminClient,main:62 - 6. Drop a course from catalog
+19:30:22,727  INFO AdminClient,main:63 - 0. To logout
+19:30:26,491  INFO UserClient,main:139 - --------------------Logged out at: Wed Jun 17 19:30:26 IST 2020 --------------------
+19:30:26,491  INFO UserClient,main:34 - Enter 1 to login
+19:30:26,491  INFO UserClient,main:35 - Enter 2  to register as a student
+19:30:26,492  INFO UserClient,main:36 - Enter any other number to exit
+19:30:28,537 ERROR UserClient,main:55 - --------------------Exiting--------------------
+19:30:28,538  INFO UserClient,main:25 - Exited
+20:14:05,061  INFO UserClient,main:28 - Welcome to student management system!!
+20:14:05,068  INFO UserClient,main:39 - Enter 1 to login
+20:14:05,068  INFO UserClient,main:40 - Enter 2  to register as a student
+20:14:05,069  INFO UserClient,main:41 - Enter any other number to exit
+20:14:07,227  INFO UserClient,main:95 - Enter username
+20:14:08,819  INFO UserClient,main:97 - Enter password
+20:14:10,954  INFO UserClient,main:103 - Successfully logged in as student
+20:14:10,961  INFO UserClient,main:104 - Logged in at: Wed Jun 17 20:14:10 IST 2020 
+20:14:10,981  INFO StudentClient,main:68 - Enter your choice:
+20:14:10,982  INFO StudentClient,main:69 - 1. To view available courses
+20:14:10,982  INFO StudentClient,main:70 - 2. To choose a course
+20:14:10,982  INFO StudentClient,main:71 - 3. To drop a course
+20:14:10,983  INFO StudentClient,main:72 - 4. View registered courses
+20:14:10,983  INFO StudentClient,main:73 - 5. Pay fees
+20:14:10,983  INFO StudentClient,main:74 - 6. View grades
+20:14:10,983  INFO StudentClient,main:75 - 0. To logout
+20:14:15,680  INFO UserClient,main:147 - --------------------Logged out at: Wed Jun 17 20:14:15 IST 2020 --------------------
+20:14:15,681  INFO UserClient,main:39 - Enter 1 to login
+20:14:15,682  INFO UserClient,main:40 - Enter 2  to register as a student
+20:14:15,682  INFO UserClient,main:41 - Enter any other number to exit
+20:14:17,535 ERROR UserClient,main:60 - --------------------Exiting--------------------
+20:14:17,535  INFO UserClient,main:30 - Exited
+20:16:11,387  INFO UserClient,main:28 - Welcome to student management system!!
+20:16:11,389  INFO UserClient,main:39 - Enter 1 to login
+20:16:11,390  INFO UserClient,main:40 - Enter 2  to register as a student
+20:16:11,390  INFO UserClient,main:41 - Enter any other number to exit
+20:16:13,520  INFO UserClient,main:95 - Enter username
+20:16:14,869  INFO UserClient,main:97 - Enter password
+20:16:18,291  INFO UserClient,main:103 - Successfully logged in as admin
+20:16:18,297  INFO UserClient,main:104 - Logged in at: Wed Jun 17 20:16:18 IST 2020 
+20:16:18,312  INFO AdminClient,main:60 - Enter your choice:
+20:16:18,313  INFO AdminClient,main:61 - 1. To view courses in catalog
+20:16:18,314  INFO AdminClient,main:62 - 2. To view users
+20:16:18,314  INFO AdminClient,main:63 - 3. Assign course to a professor
+20:16:18,314  INFO AdminClient,main:64 - 4. Register a new user
+20:16:18,314  INFO AdminClient,main:65 - 5. Add a new course to catalog
+20:16:18,315  INFO AdminClient,main:66 - 6. Drop a course from catalog
+20:16:18,315  INFO AdminClient,main:67 - 0. To logout
+20:16:22,414  INFO AdminClient,main:74 - Enter professor Id
+20:16:32,438  INFO AdminClient,main:78 - Enter course Id
+20:16:44,906 ERROR AdminDaoImpl,main:63 - Unknown column 'professor' in 'field list'
+20:16:44,907  INFO AdminClient,main:60 - Enter your choice:
+20:16:44,924  INFO AdminClient,main:61 - 1. To view courses in catalog
+20:16:44,925  INFO AdminClient,main:62 - 2. To view users
+20:16:44,926  INFO AdminClient,main:63 - 3. Assign course to a professor
+20:16:44,927  INFO AdminClient,main:64 - 4. Register a new user
+20:16:44,929  INFO AdminClient,main:65 - 5. Add a new course to catalog
+20:16:44,929  INFO AdminClient,main:66 - 6. Drop a course from catalog
+20:16:44,931  INFO AdminClient,main:67 - 0. To logout
+20:20:01,659  INFO UserClient,main:28 - Welcome to student management system!!
+20:20:01,662  INFO UserClient,main:39 - Enter 1 to login
+20:20:01,662  INFO UserClient,main:40 - Enter 2  to register as a student
+20:20:01,663  INFO UserClient,main:41 - Enter any other number to exit
+20:20:04,077  INFO UserClient,main:95 - Enter username
+20:20:05,672  INFO UserClient,main:97 - Enter password
+20:20:07,879  INFO UserClient,main:103 - Successfully logged in as admin
+20:20:07,891  INFO UserClient,main:104 - Logged in at: Wed Jun 17 20:20:07 IST 2020 
+20:20:07,903  INFO AdminClient,main:60 - Enter your choice:
+20:20:07,904  INFO AdminClient,main:61 - 1. To view courses in catalog
+20:20:07,904  INFO AdminClient,main:62 - 2. To view users
+20:20:07,905  INFO AdminClient,main:63 - 3. Assign course to a professor
+20:20:07,905  INFO AdminClient,main:64 - 4. Register a new user
+20:20:07,906  INFO AdminClient,main:65 - 5. Add a new course to catalog
+20:20:07,906  INFO AdminClient,main:66 - 6. Drop a course from catalog
+20:20:07,907  INFO AdminClient,main:67 - 0. To logout
+20:20:13,927  INFO AdminClient,main:120 - Enter 1 to add a new admin
+20:20:13,928  INFO AdminClient,main:121 - Enter 2 to add a new professor
+20:20:13,929  INFO AdminClient,main:122 - Enter 3 to add a new student
+20:20:16,861  INFO AdminClient,main:60 - Enter your choice:
+20:20:16,862  INFO AdminClient,main:61 - 1. To view courses in catalog
+20:20:16,863  INFO AdminClient,main:62 - 2. To view users
+20:20:16,863  INFO AdminClient,main:63 - 3. Assign course to a professor
+20:20:16,864  INFO AdminClient,main:64 - 4. Register a new user
+20:20:16,864  INFO AdminClient,main:65 - 5. Add a new course to catalog
+20:20:16,865  INFO AdminClient,main:66 - 6. Drop a course from catalog
+20:20:16,866  INFO AdminClient,main:67 - 0. To logout
+20:20:21,762  INFO AdminClient,main:74 - Enter professor Id
+20:20:24,471  INFO AdminClient,main:78 - Enter course Id
+20:20:26,096  INFO AdminDaoImpl,main:61 - 1 updated
+20:20:26,097  INFO AdminClient,main:60 - Enter your choice:
+20:20:26,097  INFO AdminClient,main:61 - 1. To view courses in catalog
+20:20:26,098  INFO AdminClient,main:62 - 2. To view users
+20:20:26,098  INFO AdminClient,main:63 - 3. Assign course to a professor
+20:20:26,099  INFO AdminClient,main:64 - 4. Register a new user
+20:20:26,100  INFO AdminClient,main:65 - 5. Add a new course to catalog
+20:20:26,101  INFO AdminClient,main:66 - 6. Drop a course from catalog
+20:20:26,101  INFO AdminClient,main:67 - 0. To logout

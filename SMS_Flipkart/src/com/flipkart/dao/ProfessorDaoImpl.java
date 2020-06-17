@@ -18,11 +18,13 @@ import com.flipkart.model.Professor;
 import com.flipkart.model.Student;
 import com.flipkart.utils.DBUtil;
 
+// Class that implements ProfessorDao
 public class ProfessorDaoImpl implements ProfessorDao {
 	private static Logger logger = Logger.getLogger(ProfessorDaoImpl.class);
 	
 	static Connection connection = DBUtil.getConnection();
 	
+	// View students in professor's course
 	public void viewStudents(Professor professor){
 		PreparedStatement stmt = null;
 		List<Student> studentList = new ArrayList<Student>();
@@ -47,6 +49,7 @@ public class ProfessorDaoImpl implements ProfessorDao {
 		
 	}
 	
+	// View courses taught
 	@Override
 	public List<Course> getCourseTaught(Professor professor) {
 		List<Course> courseList = new ArrayList<Course>();
@@ -72,7 +75,7 @@ public class ProfessorDaoImpl implements ProfessorDao {
 	}
 		
 	
-
+	// Get professor Details
 	@Override
 	public Professor getProfessorDetails(String username) {
 		Professor professor = new Professor();
@@ -142,6 +145,7 @@ public class ProfessorDaoImpl implements ProfessorDao {
 		
 	}
 
+	// Grade Student
 	@Override
 	public void gradeStudent(Professor professor, int courseId, int studentId, String grade) {
 		PreparedStatement stmt = null;

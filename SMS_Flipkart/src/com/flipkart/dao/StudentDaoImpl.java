@@ -18,6 +18,7 @@ import com.flipkart.model.Course;
 import com.flipkart.model.Student;
 import com.flipkart.utils.DBUtil;
 
+// Class that implements StudentDao
 public class StudentDaoImpl implements StudentDao {
 	
 	private static Logger logger = Logger.getLogger(StudentDaoImpl.class);
