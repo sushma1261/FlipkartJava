@@ -105,5 +105,22 @@ public class AdminDaoImpl implements AdminDao {
 			logger.error(e.getMessage());
 		}
 	}
+
+
+	@Override
+	public void deleteUser(int userId) {
+		PreparedStatement stmt = null;
+		try {
+			stmt = connection.prepareStatement(SQLQueriesConstants.DELETE_USER_QUERY);
+			stmt.setInt(1,userId);
+			int rows = stmt.executeUpdate();
+			logger.info(rows + " deleted");
+		}catch(SQLException se) {
+			logger.error(se.getMessage());
+		}catch(Exception e) {
+			logger.error(e.getMessage());
+		}
+		
+	}
 	
 }

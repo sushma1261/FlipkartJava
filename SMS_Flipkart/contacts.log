@@ -10649,3 +10649,59 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 20:20:26,100  INFO AdminClient,main:65 - 5. Add a new course to catalog
 20:20:26,101  INFO AdminClient,main:66 - 6. Drop a course from catalog
 20:20:26,101  INFO AdminClient,main:67 - 0. To logout
+21:10:48,587  INFO UserClient,main:28 - Welcome to student management system!!
+21:10:48,591  INFO UserClient,main:39 - Enter 1 to login
+21:10:48,592  INFO UserClient,main:40 - Enter 2  to register as a student
+21:10:48,592  INFO UserClient,main:41 - Enter any other number to exit
+21:10:50,232  INFO UserClient,main:95 - Enter username
+21:10:51,856  INFO UserClient,main:97 - Enter password
+21:10:53,986  INFO UserClient,main:103 - Successfully logged in as admin
+21:10:53,991  INFO UserClient,main:104 - Logged in at: Wed Jun 17 21:10:53 IST 2020 
+21:10:53,999  INFO AdminClient,main:63 - Enter your choice:
+21:10:53,999  INFO AdminClient,main:64 - 1. To view courses in catalog
+21:10:53,999  INFO AdminClient,main:65 - 2. To view users
+21:10:54,000  INFO AdminClient,main:66 - 3. Assign course to a professor
+21:10:54,000  INFO AdminClient,main:67 - 4. Register a new user
+21:10:54,000  INFO AdminClient,main:68 - 5. Delete a user
+21:10:54,000  INFO AdminClient,main:69 - 6. Add a new course to catalog
+21:10:54,001  INFO AdminClient,main:70 - 7. Drop a course from catalog
+21:10:54,001  INFO AdminClient,main:71 - 0. To logout
+21:10:56,108  INFO AdminClient,main:204 - Enter user id:
+21:11:01,940  INFO AdminDaoImpl,main:117 - 0 deleted
+21:11:01,941  INFO AdminClient,main:63 - Enter your choice:
+21:11:01,941  INFO AdminClient,main:64 - 1. To view courses in catalog
+21:11:01,942  INFO AdminClient,main:65 - 2. To view users
+21:11:01,942  INFO AdminClient,main:66 - 3. Assign course to a professor
+21:11:01,943  INFO AdminClient,main:67 - 4. Register a new user
+21:11:01,943  INFO AdminClient,main:68 - 5. Delete a user
+21:11:01,944  INFO AdminClient,main:69 - 6. Add a new course to catalog
+21:11:01,945  INFO AdminClient,main:70 - 7. Drop a course from catalog
+21:11:01,945  INFO AdminClient,main:71 - 0. To logout
+21:11:08,569  INFO AdminClient,main:124 - Enter 1 to add a new admin
+21:11:08,570  INFO AdminClient,main:125 - Enter 2 to add a new professor
+21:11:08,570  INFO AdminClient,main:126 - Enter 3 to add a new student
+21:11:10,158  INFO AdminClient,main:133 - Enter admin id:
+21:11:12,517  INFO AdminClient,main:135 - Enter admin name:
+21:11:14,200  INFO AdminClient,main:137 - Enter password
+21:11:14,855  INFO AdminClient,main:139 - Enter gender: 'm' for male and 'f' for female
+21:11:16,630  INFO LoginDaoImpl,main:58 - Successfully registered
+21:11:16,631  INFO AdminClient,main:63 - Enter your choice:
+21:11:16,631  INFO AdminClient,main:64 - 1. To view courses in catalog
+21:11:16,631  INFO AdminClient,main:65 - 2. To view users
+21:11:16,646  INFO AdminClient,main:66 - 3. Assign course to a professor
+21:11:16,646  INFO AdminClient,main:67 - 4. Register a new user
+21:11:16,647  INFO AdminClient,main:68 - 5. Delete a user
+21:11:16,647  INFO AdminClient,main:69 - 6. Add a new course to catalog
+21:11:16,647  INFO AdminClient,main:70 - 7. Drop a course from catalog
+21:11:16,647  INFO AdminClient,main:71 - 0. To logout
+21:11:22,310  INFO AdminClient,main:204 - Enter user id:
+21:11:24,768  INFO AdminDaoImpl,main:117 - 1 deleted
+21:11:24,768  INFO AdminClient,main:63 - Enter your choice:
+21:11:24,768  INFO AdminClient,main:64 - 1. To view courses in catalog
+21:11:24,769  INFO AdminClient,main:65 - 2. To view users
+21:11:24,771  INFO AdminClient,main:66 - 3. Assign course to a professor
+21:11:24,771  INFO AdminClient,main:67 - 4. Register a new user
+21:11:24,772  INFO AdminClient,main:68 - 5. Delete a user
+21:11:24,772  INFO AdminClient,main:69 - 6. Add a new course to catalog
+21:11:24,773  INFO AdminClient,main:70 - 7. Drop a course from catalog
+21:11:24,773  INFO AdminClient,main:71 - 0. To logout

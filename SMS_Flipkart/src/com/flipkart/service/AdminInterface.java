@@ -21,4 +21,6 @@ public interface AdminInterface extends UserInterface{
 	// Delete course
 	public void deleteCourse(Course course);
 	
+	public void deleteUser(int userId);
+	
 }

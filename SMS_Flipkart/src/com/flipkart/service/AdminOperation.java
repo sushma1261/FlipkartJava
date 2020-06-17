@@ -41,7 +41,6 @@ public class AdminOperation implements AdminInterface {
 	// View Users present
 	@Override
 	public void viewUsers() {
-		AdminDao adminDao = new AdminDaoImpl();
 		List<User> userList = adminDao.viewUsers();
 		
 		logger.info("--Professors are:--");
@@ -66,6 +65,12 @@ public class AdminOperation implements AdminInterface {
 		userList.stream().filter(user -> user.getRole().equals(role))
 		.collect(Collectors.toList())
 		.forEach(user -> logger.info(user.getUserId() + "\t" + user.getUsername()));
+	}
+
+	@Override
+	public void deleteUser(int userId) {
+		adminDao.deleteUser(userId);
+		
 	}
 
 }

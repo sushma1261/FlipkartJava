@@ -43,5 +43,6 @@ public class SQLQueriesConstants {
 	public static String DELETE_COURSE_QUERY = "delete from Course where courseId = ?";
 	public static String REGISTER_USER_QUERY = "insert into user(UserId, username, password, roleId) values (?,?,?,?)";
 	public static String ASSIGN_PROFESSOR_QUERY = "insert into ProfessorCourse(courseId, professorId) values (?, ?)";
+	public static String DELETE_USER_QUERY = "delete from user where userId = ?";
 	
 }

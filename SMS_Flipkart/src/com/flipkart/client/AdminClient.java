@@ -41,9 +41,12 @@ public class AdminClient {
 					registerNewUser();
 					break;
 				case 5:
-					addNewCourse();
+					deleteUser();
 					break;
 				case 6:
+					addNewCourse();
+					break;
+				case 7:
 					deleteCourse();
 					break;
 				case 0:
@@ -62,8 +65,9 @@ public class AdminClient {
 		logger.info("2. To view users");
 		logger.info("3. Assign course to a professor");
 		logger.info("4. Register a new user");
-		logger.info("5. Add a new course to catalog");
-		logger.info("6. Drop a course from catalog");
+		logger.info("5. Delete a user");
+		logger.info("6. Add a new course to catalog");
+		logger.info("7. Drop a course from catalog");
 		logger.info("0. To logout");
 		
 	}
@@ -194,6 +198,11 @@ public class AdminClient {
 				loginImpl.registerStudent(student, password);
 				break;
 		}
+	}
+	
+	void deleteUser() {
+		logger.info("Enter user id:");
+		adminOperation.deleteUser(Integer.parseInt(sc.nextLine()));
 	}
 	
 }

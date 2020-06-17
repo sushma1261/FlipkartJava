@@ -21,4 +21,7 @@ public interface AdminDao {
 	
 	// Delete course from catalog
 	public void dropCourse(Course course);
+	
+	//Delete a user
+	public void deleteUser(int userId);
 }
