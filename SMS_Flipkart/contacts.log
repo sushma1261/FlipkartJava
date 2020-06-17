@@ -9573,3 +9573,451 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 17:31:28,120  INFO UserClient,main:34 - Enter 1 to login
 17:31:28,121  INFO UserClient,main:35 - Enter 2  to register as a student
 17:31:28,121  INFO UserClient,main:36 - Enter any other number to exit
+17:40:46,581  INFO UserClient,main:23 - Welcome to student management system!!
+17:40:46,590  INFO UserClient,main:34 - Enter 1 to login
+17:40:46,590  INFO UserClient,main:35 - Enter 2  to register as a student
+17:40:46,590  INFO UserClient,main:36 - Enter any other number to exit
+18:03:21,912  INFO UserClient,main:23 - Welcome to student management system!!
+18:03:21,919  INFO UserClient,main:34 - Enter 1 to login
+18:03:21,920  INFO UserClient,main:35 - Enter 2  to register as a student
+18:03:21,920  INFO UserClient,main:36 - Enter any other number to exit
+18:03:23,822  INFO UserClient,main:88 - Enter username
+18:03:25,206  INFO UserClient,main:90 - Enter password
+18:03:27,829  INFO UserClient,main:96 - Successfully logged in as student
+18:03:27,838  INFO UserClient,main:97 - Logged in at: Tue Jun 16 18:03:27 IST 2020 
+18:03:27,860  INFO StudentClient,main:64 - Enter your choice:
+18:03:27,861  INFO StudentClient,main:65 - 1. To view available courses
+18:03:27,861  INFO StudentClient,main:66 - 2. To choose a course
+18:03:27,861  INFO StudentClient,main:67 - 3. To drop a course
+18:03:27,861  INFO StudentClient,main:68 - 4. View registered courses
+18:03:27,862  INFO StudentClient,main:69 - 5. Pay fees
+18:03:27,862  INFO StudentClient,main:70 - 6. View grades
+18:03:27,862  INFO StudentClient,main:71 - 0. To logout
+18:03:30,218  INFO UserInterface,main:19 - Course Id	Course Name	Fees	Course Description
+18:03:30,221  INFO UserInterface,main:21 - 1		Java 		1000	Java course
+18:03:30,221  INFO UserInterface,main:21 - 2		C++ 		1000	C++ Course for begginers
+18:03:30,222  INFO UserInterface,main:21 - 3		C 		1000	C
+18:03:30,222  INFO UserInterface,main:21 - 4		Computer network 		1000	CN
+18:03:30,222  INFO UserInterface,main:21 - 5		OS 		1000	OS
+18:03:30,223  INFO StudentClient,main:64 - Enter your choice:
+18:03:30,223  INFO StudentClient,main:65 - 1. To view available courses
+18:03:30,223  INFO StudentClient,main:66 - 2. To choose a course
+18:03:30,223  INFO StudentClient,main:67 - 3. To drop a course
+18:03:30,224  INFO StudentClient,main:68 - 4. View registered courses
+18:03:30,224  INFO StudentClient,main:69 - 5. Pay fees
+18:03:30,225  INFO StudentClient,main:70 - 6. View grades
+18:03:30,225  INFO StudentClient,main:71 - 0. To logout
+18:04:20,076 ERROR UserClient,main:131 - 
+18:04:20,077  INFO UserClient,main:88 - Enter username
+20:46:54,778  INFO UserClient,main:23 - Welcome to student management system!!
+20:46:54,781  INFO UserClient,main:34 - Enter 1 to login
+20:46:54,781  INFO UserClient,main:35 - Enter 2  to register as a student
+20:46:54,782  INFO UserClient,main:36 - Enter any other number to exit
+20:46:57,713  INFO UserClient,main:88 - Enter username
+20:47:00,071  INFO UserClient,main:90 - Enter password
+20:47:01,687 ERROR DBUtil,main:39 - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+20:47:01,689 ERROR LoginDaoImpl,main:39 - 
+20:47:01,689  INFO UserClient,main:96 - Successfully logged in as 
+20:47:01,694  INFO UserClient,main:97 - Logged in at: Tue Jun 16 20:47:01 IST 2020 
+20:47:01,695 DEBUG UserClient,main:124 - No such user
+20:47:01,695  INFO UserClient,main:88 - Enter username
+20:49:15,207  INFO UserClient,main:23 - Welcome to student management system!!
+20:49:15,211  INFO UserClient,main:34 - Enter 1 to login
+20:49:15,211  INFO UserClient,main:35 - Enter 2  to register as a student
+20:49:15,211  INFO UserClient,main:36 - Enter any other number to exit
+20:49:16,912  INFO UserClient,main:88 - Enter username
+20:49:18,405  INFO UserClient,main:90 - Enter password
+20:49:24,415  INFO UserClient,main:96 - Successfully logged in as 
+20:49:24,418  INFO UserClient,main:97 - Logged in at: Tue Jun 16 20:49:24 IST 2020 
+20:49:24,419 DEBUG UserClient,main:124 - No such user
+20:49:24,419  INFO UserClient,main:88 - Enter username
+20:49:26,279  INFO UserClient,main:90 - Enter password
+20:49:28,005  INFO UserClient,main:96 - Successfully logged in as 
+20:49:28,006  INFO UserClient,main:97 - Logged in at: Tue Jun 16 20:49:28 IST 2020 
+20:49:28,006 DEBUG UserClient,main:124 - No such user
+20:49:28,007  INFO UserClient,main:88 - Enter username
+20:49:30,625  INFO UserClient,main:90 - Enter password
+20:49:32,194  INFO UserClient,main:96 - Successfully logged in as student
+20:49:32,194  INFO UserClient,main:97 - Logged in at: Tue Jun 16 20:49:32 IST 2020 
+20:49:32,228  INFO StudentClient,main:64 - Enter your choice:
+20:49:32,229  INFO StudentClient,main:65 - 1. To view available courses
+20:49:32,229  INFO StudentClient,main:66 - 2. To choose a course
+20:49:32,230  INFO StudentClient,main:67 - 3. To drop a course
+20:49:32,230  INFO StudentClient,main:68 - 4. View registered courses
+20:49:32,230  INFO StudentClient,main:69 - 5. Pay fees
+20:49:32,231  INFO StudentClient,main:70 - 6. View grades
+20:49:32,231  INFO StudentClient,main:71 - 0. To logout
+20:49:33,800  INFO UserInterface,main:19 - Course Id	Course Name	Fees	Course Description
+20:49:33,801  INFO UserInterface,main:21 - 1		Java 		1000	Java course
+20:49:33,802  INFO UserInterface,main:21 - 2		C++ 		1000	C++ Course for begginers
+20:49:33,802  INFO UserInterface,main:21 - 3		C 		1000	C
+20:49:33,802  INFO UserInterface,main:21 - 4		Computer network 		1000	CN
+20:49:33,802  INFO UserInterface,main:21 - 5		OS 		1000	OS
+20:49:33,802  INFO StudentClient,main:64 - Enter your choice:
+20:49:33,803  INFO StudentClient,main:65 - 1. To view available courses
+20:49:33,803  INFO StudentClient,main:66 - 2. To choose a course
+20:49:33,815  INFO StudentClient,main:67 - 3. To drop a course
+20:49:33,815  INFO StudentClient,main:68 - 4. View registered courses
+20:49:33,815  INFO StudentClient,main:69 - 5. Pay fees
+20:49:33,815  INFO StudentClient,main:70 - 6. View grades
+20:49:33,815  INFO StudentClient,main:71 - 0. To logout
+20:49:35,456  INFO StudentClient,main:79 - Enter courseId
+20:49:38,013 ERROR CatalogDaoImpl,main:67 - 
+20:49:38,014 ERROR StudentOperation,main:26 - course with id 7not found
+20:49:38,014  INFO StudentClient,main:64 - Enter your choice:
+20:49:38,015  INFO StudentClient,main:65 - 1. To view available courses
+20:49:38,015  INFO StudentClient,main:66 - 2. To choose a course
+20:49:38,016  INFO StudentClient,main:67 - 3. To drop a course
+20:49:38,016  INFO StudentClient,main:68 - 4. View registered courses
+20:49:38,016  INFO StudentClient,main:69 - 5. Pay fees
+20:49:38,016  INFO StudentClient,main:70 - 6. View grades
+20:49:38,017  INFO StudentClient,main:71 - 0. To logout
+20:49:42,285  INFO StudentOperation,main:52 - Course Id	Course Name
+20:49:42,286  INFO StudentOperation,main:53 - 1		 Java
+20:49:42,286  INFO StudentOperation,main:53 - 2		 C++
+20:49:42,286  INFO StudentOperation,main:53 - 5		 OS
+20:49:42,286  INFO StudentClient,main:64 - Enter your choice:
+20:49:42,286  INFO StudentClient,main:65 - 1. To view available courses
+20:49:42,287  INFO StudentClient,main:66 - 2. To choose a course
+20:49:42,287  INFO StudentClient,main:67 - 3. To drop a course
+20:49:42,287  INFO StudentClient,main:68 - 4. View registered courses
+20:49:42,287  INFO StudentClient,main:69 - 5. Pay fees
+20:49:42,287  INFO StudentClient,main:70 - 6. View grades
+20:49:42,287  INFO StudentClient,main:71 - 0. To logout
+20:49:44,807  INFO StudentClient,main:95 - --------Report Card--------
+20:49:44,808  INFO StudentClient,main:96 - Course	Grade
+20:49:44,811  INFO StudentOperation,main:66 - Java	A+
+20:49:44,812  INFO StudentOperation,main:66 - C++	A
+20:49:44,812  INFO StudentOperation,main:66 - OS	null
+20:49:44,812  INFO StudentClient,main:98 - ---------------------------
+20:49:44,813  INFO StudentClient,main:64 - Enter your choice:
+20:49:44,813  INFO StudentClient,main:65 - 1. To view available courses
+20:49:44,813  INFO StudentClient,main:66 - 2. To choose a course
+20:49:44,813  INFO StudentClient,main:67 - 3. To drop a course
+20:49:44,814  INFO StudentClient,main:68 - 4. View registered courses
+20:49:44,814  INFO StudentClient,main:69 - 5. Pay fees
+20:49:44,814  INFO StudentClient,main:70 - 6. View grades
+20:49:44,815  INFO StudentClient,main:71 - 0. To logout
+20:49:48,620  INFO UserClient,main:139 - --------------------Logged out at: Tue Jun 16 20:49:48 IST 2020 --------------------
+20:49:48,620  INFO UserClient,main:34 - Enter 1 to login
+20:49:48,620  INFO UserClient,main:35 - Enter 2  to register as a student
+20:49:48,621  INFO UserClient,main:36 - Enter any other number to exit
+21:18:52,255  INFO UserClient,main:23 - Welcome to student management system!!
+21:18:52,258  INFO UserClient,main:34 - Enter 1 to login
+21:18:52,258  INFO UserClient,main:35 - Enter 2  to register as a student
+21:18:52,258  INFO UserClient,main:36 - Enter any other number to exit
+21:18:58,105  INFO UserClient,main:23 - Welcome to student management system!!
+21:18:58,109  INFO UserClient,main:34 - Enter 1 to login
+21:18:58,109  INFO UserClient,main:35 - Enter 2  to register as a student
+21:18:58,110  INFO UserClient,main:36 - Enter any other number to exit
+21:18:59,369  INFO UserClient,main:88 - Enter username
+21:19:01,237  INFO UserClient,main:90 - Enter password
+21:19:03,148  INFO UserClient,main:96 - Successfully logged in as student
+21:19:03,152  INFO UserClient,main:97 - Logged in at: Tue Jun 16 21:19:03 IST 2020 
+21:19:03,159  INFO StudentClient,main:64 - Enter your choice:
+21:19:03,160  INFO StudentClient,main:65 - 1. To view available courses
+21:19:03,160  INFO StudentClient,main:66 - 2. To choose a course
+21:19:03,160  INFO StudentClient,main:67 - 3. To drop a course
+21:19:03,160  INFO StudentClient,main:68 - 4. View registered courses
+21:19:03,161  INFO StudentClient,main:69 - 5. Pay fees
+21:19:03,161  INFO StudentClient,main:70 - 6. View grades
+21:19:03,161  INFO StudentClient,main:71 - 0. To logout
+21:19:04,742  INFO StudentClient,main:104 - Want to continue to pay Rs.3000 press 'y' to continue...
+21:19:11,018  INFO StudentClient,main:106 - Enter 1 to pay with credit card.
+21:19:11,019  INFO StudentClient,main:107 - Enter 2 to pay with debit card.
+21:19:11,019  INFO StudentClient,main:108 - Enter 3 to pay as cash.
+21:19:15,471  INFO StudentClient,main:64 - Enter your choice:
+21:19:15,472  INFO StudentClient,main:65 - 1. To view available courses
+21:19:15,472  INFO StudentClient,main:66 - 2. To choose a course
+21:19:15,473  INFO StudentClient,main:67 - 3. To drop a course
+21:19:15,474  INFO StudentClient,main:68 - 4. View registered courses
+21:19:15,474  INFO StudentClient,main:69 - 5. Pay fees
+21:19:15,475  INFO StudentClient,main:70 - 6. View grades
+21:19:15,476  INFO StudentClient,main:71 - 0. To logout
+21:20:12,899  INFO UserClient,main:23 - Welcome to student management system!!
+21:20:12,902  INFO UserClient,main:34 - Enter 1 to login
+21:20:12,902  INFO UserClient,main:35 - Enter 2  to register as a student
+21:20:12,902  INFO UserClient,main:36 - Enter any other number to exit
+21:20:14,073  INFO UserClient,main:88 - Enter username
+21:20:15,480  INFO UserClient,main:90 - Enter password
+21:20:17,596  INFO UserClient,main:96 - Successfully logged in as student
+21:20:17,600  INFO UserClient,main:97 - Logged in at: Tue Jun 16 21:20:17 IST 2020 
+21:20:17,608  INFO StudentClient,main:64 - Enter your choice:
+21:20:17,608  INFO StudentClient,main:65 - 1. To view available courses
+21:20:17,609  INFO StudentClient,main:66 - 2. To choose a course
+21:20:17,609  INFO StudentClient,main:67 - 3. To drop a course
+21:20:17,609  INFO StudentClient,main:68 - 4. View registered courses
+21:20:17,610  INFO StudentClient,main:69 - 5. Pay fees
+21:20:17,610  INFO StudentClient,main:70 - 6. View grades
+21:20:17,610  INFO StudentClient,main:71 - 0. To logout
+21:20:19,678  INFO StudentClient,main:104 - Want to continue to pay Rs.3000 press 'y' to continue...
+21:20:21,897  INFO StudentClient,main:106 - Enter 1 to pay with credit card.
+21:20:21,904  INFO StudentClient,main:107 - Enter 2 to pay with debit card.
+21:20:21,905  INFO StudentClient,main:108 - Enter 3 to pay as cash.
+21:20:24,365 ERROR StudentDaoImpl,main:253 - Duplicate entry '1' for key 'payment.PRIMARY'
+21:20:24,366  INFO StudentOperation,main:80 - Payment Failed
+21:20:24,366  INFO StudentClient,main:64 - Enter your choice:
+21:20:24,367  INFO StudentClient,main:65 - 1. To view available courses
+21:20:24,367  INFO StudentClient,main:66 - 2. To choose a course
+21:20:24,367  INFO StudentClient,main:67 - 3. To drop a course
+21:20:24,368  INFO StudentClient,main:68 - 4. View registered courses
+21:20:24,368  INFO StudentClient,main:69 - 5. Pay fees
+21:20:24,368  INFO StudentClient,main:70 - 6. View grades
+21:20:24,369  INFO StudentClient,main:71 - 0. To logout
+21:20:52,414  INFO StudentClient,main:104 - Want to continue to pay Rs.3000 press 'y' to continue...
+21:20:56,178  INFO StudentClient,main:106 - Enter 1 to pay with credit card.
+21:20:56,178  INFO StudentClient,main:107 - Enter 2 to pay with debit card.
+21:20:56,179  INFO StudentClient,main:108 - Enter 3 to pay as cash.
+21:20:58,295 ERROR StudentDaoImpl,main:246 - Unknown column 'isRegistered' in 'field list'
+21:20:58,295  INFO StudentOperation,main:80 - Payment Failed
+21:20:58,295  INFO StudentClient,main:64 - Enter your choice:
+21:20:58,296  INFO StudentClient,main:65 - 1. To view available courses
+21:20:58,296  INFO StudentClient,main:66 - 2. To choose a course
+21:20:58,296  INFO StudentClient,main:67 - 3. To drop a course
+21:20:58,296  INFO StudentClient,main:68 - 4. View registered courses
+21:20:58,297  INFO StudentClient,main:69 - 5. Pay fees
+21:20:58,297  INFO StudentClient,main:70 - 6. View grades
+21:20:58,297  INFO StudentClient,main:71 - 0. To logout
+21:21:57,397  INFO StudentOperation,main:52 - Course Id	Course Name
+21:21:57,398  INFO StudentOperation,main:53 - 1		 Java
+21:21:57,398  INFO StudentOperation,main:53 - 2		 C++
+21:21:57,398  INFO StudentOperation,main:53 - 5		 OS
+21:21:57,398  INFO StudentClient,main:64 - Enter your choice:
+21:21:57,398  INFO StudentClient,main:65 - 1. To view available courses
+21:21:57,399  INFO StudentClient,main:66 - 2. To choose a course
+21:21:57,399  INFO StudentClient,main:67 - 3. To drop a course
+21:21:57,399  INFO StudentClient,main:68 - 4. View registered courses
+21:21:57,399  INFO StudentClient,main:69 - 5. Pay fees
+21:21:57,400  INFO StudentClient,main:70 - 6. View grades
+21:21:57,400  INFO StudentClient,main:71 - 0. To logout
+21:21:59,545  INFO StudentClient,main:104 - Want to continue to pay Rs.3000 press 'y' to continue...
+21:22:01,783  INFO StudentClient,main:106 - Enter 1 to pay with credit card.
+21:22:01,783  INFO StudentClient,main:107 - Enter 2 to pay with debit card.
+21:22:01,783  INFO StudentClient,main:108 - Enter 3 to pay as cash.
+21:22:03,669 ERROR StudentDaoImpl,main:246 - Unknown column 'isRegistered' in 'field list'
+21:22:03,670  INFO StudentOperation,main:80 - Payment Failed
+21:22:03,671  INFO StudentClient,main:64 - Enter your choice:
+21:22:03,671  INFO StudentClient,main:65 - 1. To view available courses
+21:22:03,672  INFO StudentClient,main:66 - 2. To choose a course
+21:22:03,672  INFO StudentClient,main:67 - 3. To drop a course
+21:22:03,673  INFO StudentClient,main:68 - 4. View registered courses
+21:22:03,673  INFO StudentClient,main:69 - 5. Pay fees
+21:22:03,674  INFO StudentClient,main:70 - 6. View grades
+21:22:03,674  INFO StudentClient,main:71 - 0. To logout
+21:22:08,773  INFO UserClient,main:23 - Welcome to student management system!!
+21:22:08,776  INFO UserClient,main:34 - Enter 1 to login
+21:22:08,776  INFO UserClient,main:35 - Enter 2  to register as a student
+21:22:08,776  INFO UserClient,main:36 - Enter any other number to exit
+21:22:10,192  INFO UserClient,main:88 - Enter username
+21:22:11,662  INFO UserClient,main:90 - Enter password
+21:22:13,655  INFO UserClient,main:96 - Successfully logged in as student
+21:22:13,661  INFO UserClient,main:97 - Logged in at: Tue Jun 16 21:22:13 IST 2020 
+21:22:13,672  INFO StudentClient,main:64 - Enter your choice:
+21:22:13,672  INFO StudentClient,main:65 - 1. To view available courses
+21:22:13,673  INFO StudentClient,main:66 - 2. To choose a course
+21:22:13,673  INFO StudentClient,main:67 - 3. To drop a course
+21:22:13,674  INFO StudentClient,main:68 - 4. View registered courses
+21:22:13,674  INFO StudentClient,main:69 - 5. Pay fees
+21:22:13,674  INFO StudentClient,main:70 - 6. View grades
+21:22:13,675  INFO StudentClient,main:71 - 0. To logout
+21:22:27,161  INFO StudentOperation,main:52 - Course Id	Course Name
+21:22:27,162  INFO StudentOperation,main:53 - 1		 Java
+21:22:27,162  INFO StudentOperation,main:53 - 2		 C++
+21:22:27,163  INFO StudentOperation,main:53 - 5		 OS
+21:22:27,163  INFO StudentClient,main:64 - Enter your choice:
+21:22:27,163  INFO StudentClient,main:65 - 1. To view available courses
+21:22:27,163  INFO StudentClient,main:66 - 2. To choose a course
+21:22:27,164  INFO StudentClient,main:67 - 3. To drop a course
+21:22:27,164  INFO StudentClient,main:68 - 4. View registered courses
+21:22:27,164  INFO StudentClient,main:69 - 5. Pay fees
+21:22:27,165  INFO StudentClient,main:70 - 6. View grades
+21:22:27,165  INFO StudentClient,main:71 - 0. To logout
+21:22:29,123  INFO StudentClient,main:104 - Want to continue to pay Rs.3000 press 'y' to continue...
+21:22:31,019  INFO StudentClient,main:106 - Enter 1 to pay with credit card.
+21:22:31,020  INFO StudentClient,main:107 - Enter 2 to pay with debit card.
+21:22:31,021  INFO StudentClient,main:108 - Enter 3 to pay as cash.
+21:22:32,821  INFO StudentOperation,main:80 - Payment successful
+21:22:32,821  INFO StudentClient,main:64 - Enter your choice:
+21:22:32,822  INFO StudentClient,main:65 - 1. To view available courses
+21:22:32,822  INFO StudentClient,main:66 - 2. To choose a course
+21:22:32,822  INFO StudentClient,main:67 - 3. To drop a course
+21:22:32,822  INFO StudentClient,main:68 - 4. View registered courses
+21:22:32,823  INFO StudentClient,main:69 - 5. Pay fees
+21:22:32,823  INFO StudentClient,main:70 - 6. View grades
+21:22:32,823  INFO StudentClient,main:71 - 0. To logout
+21:22:46,218  INFO UserClient,main:139 - --------------------Logged out at: Tue Jun 16 21:22:46 IST 2020 --------------------
+21:22:46,219  INFO UserClient,main:34 - Enter 1 to login
+21:22:46,220  INFO UserClient,main:35 - Enter 2  to register as a student
+21:22:46,220  INFO UserClient,main:36 - Enter any other number to exit
+21:24:19,603 ERROR UserClient,main:131 - No line found
+21:24:19,629 ERROR UserClient,main:131 - 
+21:24:19,658 ERROR UserClient,main:131 - 
+21:24:19,658  INFO UserClient,main:88 - Enter username
+21:24:19,672 ERROR UserClient,main:131 - No line found
+21:24:19,673  INFO UserClient,main:34 - Enter 1 to login
+21:24:19,673  INFO UserClient,main:35 - Enter 2  to register as a student
+07:45:59,613  INFO UserClient,main:23 - Welcome to student management system!!
+07:45:59,621  INFO UserClient,main:34 - Enter 1 to login
+07:45:59,622  INFO UserClient,main:35 - Enter 2  to register as a student
+07:45:59,622  INFO UserClient,main:36 - Enter any other number to exit
+07:46:01,737  INFO UserClient,main:88 - Enter username
+07:46:04,179  INFO UserClient,main:90 - Enter password
+07:46:06,255  INFO UserClient,main:96 - Successfully logged in as student
+07:46:06,260  INFO UserClient,main:97 - Logged in at: Wed Jun 17 07:46:06 IST 2020 
+07:46:06,296  INFO StudentClient,main:64 - Enter your choice:
+07:46:06,296  INFO StudentClient,main:65 - 1. To view available courses
+07:46:06,297  INFO StudentClient,main:66 - 2. To choose a course
+07:46:06,297  INFO StudentClient,main:67 - 3. To drop a course
+07:46:06,297  INFO StudentClient,main:68 - 4. View registered courses
+07:46:06,297  INFO StudentClient,main:69 - 5. Pay fees
+07:46:06,298  INFO StudentClient,main:70 - 6. View grades
+07:46:06,298  INFO StudentClient,main:71 - 0. To logout
+07:46:07,276  INFO UserInterface,main:19 - Course Id	Course Name	Fees	Course Description
+07:46:07,278  INFO UserInterface,main:21 - 1		Java 		1000	Java course
+07:46:07,279  INFO UserInterface,main:21 - 2		C++ 		1000	C++ Course for begginers
+07:46:07,280  INFO UserInterface,main:21 - 3		C 		1000	C
+07:46:07,280  INFO UserInterface,main:21 - 4		Computer network 		1000	CN
+07:46:07,280  INFO UserInterface,main:21 - 5		OS 		1000	OS
+07:46:07,280  INFO StudentClient,main:64 - Enter your choice:
+07:46:07,281  INFO StudentClient,main:65 - 1. To view available courses
+07:46:07,281  INFO StudentClient,main:66 - 2. To choose a course
+07:46:07,281  INFO StudentClient,main:67 - 3. To drop a course
+07:46:07,281  INFO StudentClient,main:68 - 4. View registered courses
+07:46:07,282  INFO StudentClient,main:69 - 5. Pay fees
+07:46:07,282  INFO StudentClient,main:70 - 6. View grades
+07:46:07,282  INFO StudentClient,main:71 - 0. To logout
+07:46:09,825  INFO StudentOperation,main:52 - Course Id	Course Name
+07:46:09,827  INFO StudentOperation,main:53 - 1		 Java
+07:46:09,829  INFO StudentOperation,main:53 - 2		 C++
+07:46:09,841  INFO StudentOperation,main:53 - 5		 OS
+07:46:09,841  INFO StudentClient,main:64 - Enter your choice:
+07:46:09,842  INFO StudentClient,main:65 - 1. To view available courses
+07:46:09,842  INFO StudentClient,main:66 - 2. To choose a course
+07:46:09,842  INFO StudentClient,main:67 - 3. To drop a course
+07:46:09,842  INFO StudentClient,main:68 - 4. View registered courses
+07:46:09,843  INFO StudentClient,main:69 - 5. Pay fees
+07:46:09,843  INFO StudentClient,main:70 - 6. View grades
+07:46:09,843  INFO StudentClient,main:71 - 0. To logout
+07:46:12,196  INFO StudentClient,main:95 - --------Report Card--------
+07:46:12,197  INFO StudentClient,main:96 - Course	Grade
+07:46:12,202  INFO StudentOperation,main:66 - Java	A+
+07:46:12,203  INFO StudentOperation,main:66 - C++	A
+07:46:12,203  INFO StudentOperation,main:66 - OS	null
+07:46:12,203  INFO StudentClient,main:98 - ---------------------------
+07:46:12,203  INFO StudentClient,main:64 - Enter your choice:
+07:46:12,204  INFO StudentClient,main:65 - 1. To view available courses
+07:46:12,204  INFO StudentClient,main:66 - 2. To choose a course
+07:46:12,204  INFO StudentClient,main:67 - 3. To drop a course
+07:46:12,204  INFO StudentClient,main:68 - 4. View registered courses
+07:46:12,205  INFO StudentClient,main:69 - 5. Pay fees
+07:46:12,205  INFO StudentClient,main:70 - 6. View grades
+07:46:12,205  INFO StudentClient,main:71 - 0. To logout
+07:46:17,770  INFO UserClient,main:139 - --------------------Logged out at: Wed Jun 17 07:46:17 IST 2020 --------------------
+07:46:17,770  INFO UserClient,main:34 - Enter 1 to login
+07:46:17,770  INFO UserClient,main:35 - Enter 2  to register as a student
+07:46:17,771  INFO UserClient,main:36 - Enter any other number to exit
+07:46:19,741  INFO UserClient,main:88 - Enter username
+07:46:23,508  INFO UserClient,main:90 - Enter password
+07:46:24,753  INFO UserClient,main:96 - Successfully logged in as admin
+07:46:24,753  INFO UserClient,main:97 - Logged in at: Wed Jun 17 07:46:24 IST 2020 
+07:46:24,765  INFO AdminClient,main:55 - Enter your choice:
+07:46:24,765  INFO AdminClient,main:56 - 1. To view courses in catalog
+07:46:24,765  INFO AdminClient,main:57 - 2. To view users
+07:46:24,765  INFO AdminClient,main:58 - 3. Assign course to a professor
+07:46:24,766  INFO AdminClient,main:59 - 4. Register a new user
+07:46:24,766  INFO AdminClient,main:60 - 5. Add a new course to catalog
+07:46:24,766  INFO AdminClient,main:61 - 6. Drop a course from catalog
+07:46:24,766  INFO AdminClient,main:62 - 0. To logout
+07:46:26,802  INFO UserInterface,main:19 - Course Id	Course Name	Fees	Course Description
+07:46:26,803  INFO UserInterface,main:21 - 1		Java 		1000	Java course
+07:46:26,803  INFO UserInterface,main:21 - 2		C++ 		1000	C++ Course for begginers
+07:46:26,803  INFO UserInterface,main:21 - 3		C 		1000	C
+07:46:26,804  INFO UserInterface,main:21 - 4		Computer network 		1000	CN
+07:46:26,804  INFO UserInterface,main:21 - 5		OS 		1000	OS
+07:46:26,804  INFO AdminClient,main:55 - Enter your choice:
+07:46:26,805  INFO AdminClient,main:56 - 1. To view courses in catalog
+07:46:26,805  INFO AdminClient,main:57 - 2. To view users
+07:46:26,805  INFO AdminClient,main:58 - 3. Assign course to a professor
+07:46:26,805  INFO AdminClient,main:59 - 4. Register a new user
+07:46:26,805  INFO AdminClient,main:60 - 5. Add a new course to catalog
+07:46:26,806  INFO AdminClient,main:61 - 6. Drop a course from catalog
+07:46:26,806  INFO AdminClient,main:62 - 0. To logout
+07:46:27,696  INFO AdminOperation,main:46 - --Professors are:--
+07:46:27,698  INFO AdminOperation,main:67 - 1	sushma
+07:46:27,698  INFO AdminOperation,main:67 - 2	vishnu
+07:46:27,699  INFO AdminOperation,main:67 - 3	roja
+07:46:27,699  INFO AdminOperation,main:67 - 12	nagu
+07:46:27,699  INFO AdminOperation,main:49 - --Students are:--
+07:46:27,700  INFO AdminOperation,main:67 - 4	abcd
+07:46:27,700  INFO AdminOperation,main:67 - 23	aa
+07:46:27,700  INFO AdminOperation,main:67 - 89	rishi
+07:46:27,700  INFO AdminOperation,main:67 - 123	pradeep
+07:46:27,700  INFO AdminOperation,main:67 - 1245	asd
+07:46:27,700  INFO AdminOperation,main:67 - 1270	jahnavi
+07:46:27,700  INFO AdminOperation,main:52 - --Admins are:--
+07:46:27,701  INFO AdminOperation,main:67 - 5	xyz
+07:46:27,701  INFO AdminClient,main:55 - Enter your choice:
+07:46:27,701  INFO AdminClient,main:56 - 1. To view courses in catalog
+07:46:27,701  INFO AdminClient,main:57 - 2. To view users
+07:46:27,701  INFO AdminClient,main:58 - 3. Assign course to a professor
+07:46:27,702  INFO AdminClient,main:59 - 4. Register a new user
+07:46:27,702  INFO AdminClient,main:60 - 5. Add a new course to catalog
+07:46:27,702  INFO AdminClient,main:61 - 6. Drop a course from catalog
+07:46:27,702  INFO AdminClient,main:62 - 0. To logout
+07:46:39,316  INFO UserClient,main:139 - --------------------Logged out at: Wed Jun 17 07:46:39 IST 2020 --------------------
+07:46:39,317  INFO UserClient,main:34 - Enter 1 to login
+07:46:39,317  INFO UserClient,main:35 - Enter 2  to register as a student
+07:46:39,317  INFO UserClient,main:36 - Enter any other number to exit
+07:46:40,792  INFO UserClient,main:88 - Enter username
+07:46:42,718  INFO UserClient,main:90 - Enter password
+07:46:44,090  INFO UserClient,main:96 - Successfully logged in as professor
+07:46:44,116  INFO UserClient,main:97 - Logged in at: Wed Jun 17 07:46:44 IST 2020 
+07:46:44,131  INFO ProfessorClient,main:28 - Enter your choice:
+07:46:44,131  INFO ProfessorClient,main:29 - 1. To view available courses
+07:46:44,132  INFO ProfessorClient,main:30 - 2. To view courses taught
+07:46:44,132  INFO ProfessorClient,main:31 - 3. To view students in a course
+07:46:44,132  INFO ProfessorClient,main:32 - 4. Grade a student
+07:46:44,132  INFO ProfessorClient,main:33 - 0. To logout
+07:46:46,336  INFO UserInterface,main:19 - Course Id	Course Name	Fees	Course Description
+07:46:46,337  INFO UserInterface,main:21 - 1		Java 		1000	Java course
+07:46:46,337  INFO UserInterface,main:21 - 2		C++ 		1000	C++ Course for begginers
+07:46:46,338  INFO UserInterface,main:21 - 3		C 		1000	C
+07:46:46,338  INFO UserInterface,main:21 - 4		Computer network 		1000	CN
+07:46:46,338  INFO UserInterface,main:21 - 5		OS 		1000	OS
+07:46:46,339  INFO ProfessorClient,main:28 - Enter your choice:
+07:46:46,339  INFO ProfessorClient,main:29 - 1. To view available courses
+07:46:46,339  INFO ProfessorClient,main:30 - 2. To view courses taught
+07:46:46,340  INFO ProfessorClient,main:31 - 3. To view students in a course
+07:46:46,340  INFO ProfessorClient,main:32 - 4. Grade a student
+07:46:46,340  INFO ProfessorClient,main:33 - 0. To logout
+07:46:47,932  INFO ProfessorOperation,main:34 - --------------Course List--------------
+07:46:47,932  INFO ProfessorOperation,main:35 - Course Id	Course Name		Course Description
+07:46:47,940  INFO ProfessorOperation,main:38 - 1		Java			Java course
+07:46:47,940  INFO ProfessorOperation,main:38 - 2		C++			C++ Course for begginers
+07:46:47,940  INFO ProfessorOperation,main:40 - ----------------------------------------
+07:46:47,941  INFO ProfessorClient,main:28 - Enter your choice:
+07:46:47,941  INFO ProfessorClient,main:29 - 1. To view available courses
+07:46:47,941  INFO ProfessorClient,main:30 - 2. To view courses taught
+07:46:47,941  INFO ProfessorClient,main:31 - 3. To view students in a course
+07:46:47,942  INFO ProfessorClient,main:32 - 4. Grade a student
+07:46:47,942  INFO ProfessorClient,main:33 - 0. To logout
+07:46:51,498  INFO ProfessorDaoImpl,main:35 - --------------Student List--------------
+07:46:51,499  INFO ProfessorDaoImpl,main:36 - Course Id 	 Student Id	Student Name	Branch	gender	Semester
+07:46:51,499  INFO ProfessorDaoImpl,main:38 - 1		4		abcd		it	male	1
+07:46:51,499  INFO ProfessorDaoImpl,main:38 - 1		89		rishi		ece	male	1
+07:46:51,500  INFO ProfessorDaoImpl,main:38 - 2		4		abcd		it	male	1
+07:46:51,500  INFO ProfessorDaoImpl,main:40 - ----------------------------------------
+07:46:51,500  INFO ProfessorClient,main:28 - Enter your choice:
+07:46:51,500  INFO ProfessorClient,main:29 - 1. To view available courses
+07:46:51,501  INFO ProfessorClient,main:30 - 2. To view courses taught
+07:46:51,501  INFO ProfessorClient,main:31 - 3. To view students in a course
+07:46:51,501  INFO ProfessorClient,main:32 - 4. Grade a student
+07:46:51,501  INFO ProfessorClient,main:33 - 0. To logout
+07:47:02,896  INFO UserClient,main:139 - --------------------Logged out at: Wed Jun 17 07:47:02 IST 2020 --------------------
+07:47:02,896  INFO UserClient,main:34 - Enter 1 to login
+07:47:02,897  INFO UserClient,main:35 - Enter 2  to register as a student
+07:47:02,897  INFO UserClient,main:36 - Enter any other number to exit
+07:47:04,291 ERROR UserClient,main:55 - --------------------Exiting--------------------
+07:47:04,291  INFO UserClient,main:25 - Exited

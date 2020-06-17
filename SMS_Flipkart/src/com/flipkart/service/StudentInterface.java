@@ -22,4 +22,8 @@ public interface StudentInterface extends UserInterface {
 	
 	
 	void viewGrades(Student studentId);
+	
+	public int calculateTotalFee(Student student);
+	
+	public void makePayment(Student student, int paymentMethod, int fees);
 }

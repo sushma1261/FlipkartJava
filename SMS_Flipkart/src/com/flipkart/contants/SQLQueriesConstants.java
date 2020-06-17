@@ -18,6 +18,9 @@ public class SQLQueriesConstants {
 	public static String CHECK_IF_REGISTERED_TO_COURSE_QUERY = "select count(*) from RegisteredCourses where studentId = ? and courseId = ?";
 	public static String GET_STUDENT_NAME_QUERY = "select * from Student where studentId = ?";
 	public static String VIEW_GRADES_QUERY = "select c.courseId, c.courseName, rc.grade from Course c join RegisteredCourses rc on rc.courseId = c.courseId where rc.studentId = ?";
+	public static String CALCULATE_TOTAL_FEE = "select sum(c.fees) from RegisteredCourses rc join Course c on c.courseId = rc.courseId where rc.studentId = ?"; 
+	public static String MAKE_PAYMENT_QUERY = "insert into Payment(studentId, feesPaid, paymentMethodId, paymentDate) values(?, ?, ?, ?)";
+	public static String UPDATE_AFTER_PAYMENT = "update Student set isRegistered = 1 where studentId = ?";
 	
 	// Professor Queries
 	public static String REGISTER_PROFESSOR_QUERY = "insert into Professor(professorId, professorName, gender) values (?,?,?)";

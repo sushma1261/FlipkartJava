@@ -204,4 +204,56 @@ public class StudentDaoImpl implements StudentDao {
 		return reports;
 	}
 
+	public int calculateTotalFee(Student student) {
+		int totalFees = 0;
+		PreparedStatement stmt = null;
+		try {
+			stmt = connection.prepareStatement(SQLQueriesConstants.CALCULATE_TOTAL_FEE);
+			stmt.setInt(1, student.getStudentId());
+			ResultSet rs = stmt.executeQuery();
+			if(rs.next()) {
+				totalFees = rs.getInt(1);
+			}
+			stmt.close();
+		}catch(SQLException se){
+			logger.error(se.getMessage());
+		}catch(Exception e){
+		  logger.error(e.getMessage());
+		}
+		return totalFees;
+		
+	}
+	
+	public String makePayment(Student student, int paymentMethod, int fees) {
+		PreparedStatement stmt = null;
+		try {
+			stmt = connection.prepareStatement(SQLQueriesConstants.MAKE_PAYMENT_QUERY);
+			stmt.setInt(1, student.getStudentId());
+			stmt.setInt(2, fees);
+			stmt.setInt(3, paymentMethod);
+			LocalDateTime dateTime = LocalDateTime.now();
+			stmt.setObject(4, dateTime);
+			int rows = stmt.executeUpdate();
+			if(rows > 0) {
+				PreparedStatement stmt1 = null;
+				try {
+					stmt1 = connection.prepareStatement(SQLQueriesConstants.UPDATE_AFTER_PAYMENT);
+					stmt1.setInt(1, student.getStudentId());
+					if(stmt1.executeUpdate() > 0) {
+						return "Payment successful";
+					}
+				}catch(SQLException se){
+					logger.error(se.getMessage());
+				}catch(Exception e){
+				  logger.error(e.getMessage());
+				}
+			}
+			stmt.close();
+		}catch(SQLException se){
+			logger.error(se.getMessage());
+		}catch(Exception e){
+		  logger.error(e.getMessage());
+		}
+		return "Payment Failed";
+	}
 }

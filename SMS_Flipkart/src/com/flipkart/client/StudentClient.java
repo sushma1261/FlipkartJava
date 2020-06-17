@@ -44,7 +44,7 @@ public class StudentClient {
 					break;
 					
 				case 5:
-					logger.debug("Pay fees");
+					payFees();
 					break;
 					
 				case 6:
@@ -96,6 +96,27 @@ public class StudentClient {
 		logger.info("Course\tGrade");
 		studentOperation.viewGrades(student);
 		logger.info("---------------------------");
+	}
+	
+	void payFees() {
+		// Get amount to be paid
+		int fee = studentOperation.calculateTotalFee(student);
+		logger.info("Want to continue to pay Rs."+ fee + " press 'y' to continue...");
+		if(sc.nextLine().equals("y")) {
+			logger.info("Enter 1 to pay with credit card.");
+			logger.info("Enter 2 to pay with debit card.");
+			logger.info("Enter 3 to pay as cash.");
+			int choice = Integer.parseInt(sc.nextLine());
+			if(choice >= 1 && choice <= 3) {
+				studentOperation.makePayment(student, choice, fee);
+			}
+			else {
+				logger.info("Cannot do such payment!!");
+			}
+		}
+		else {
+			logger.info("Payment not done.");
+		}
 	}
 
 }

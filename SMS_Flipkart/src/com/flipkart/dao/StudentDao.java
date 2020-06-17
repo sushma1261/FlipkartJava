@@ -31,4 +31,9 @@ public interface StudentDao {
 	public int numberOfRegisteredCourse(Student student);
 	
 	public Map<String, String> viewGrades(Student student);
+	
+	public int calculateTotalFee(Student student);
+	
+	public String makePayment(Student student, int paymentMethod, int fees);
 }
+

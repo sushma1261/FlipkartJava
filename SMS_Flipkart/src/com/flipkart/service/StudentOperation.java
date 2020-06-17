@@ -72,6 +72,13 @@ public class StudentOperation implements StudentInterface {
 		return studentDao.numberOfRegisteredCourse(student);
 	}
 
+	@Override
+	public int calculateTotalFee(Student student) {
+		return studentDao.calculateTotalFee(student);
+	}
+	public void makePayment(Student student, int paymentMethod, int fees) {
+		logger.info(studentDao.makePayment(student, paymentMethod, fees));
+	}
 	
 
 }
