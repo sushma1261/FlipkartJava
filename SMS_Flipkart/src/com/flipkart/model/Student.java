@@ -9,6 +9,19 @@ public class Student extends User {
 	boolean hasScholarship;
 	String gender;
 	int semester;
+	int isRegistered;
+	/**
+	 * @return the isRegistered
+	 */
+	public int getIsRegistered() {
+		return isRegistered;
+	}
+	/**
+	 * @param isRegistered the isRegistered to set
+	 */
+	public void setIsRegistered(int isRegistered) {
+		this.isRegistered = isRegistered;
+	}
 	/**
 	 * @return the semester
 	 */

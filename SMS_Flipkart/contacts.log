@@ -10705,3 +10705,4 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 21:11:24,772  INFO AdminClient,main:69 - 6. Add a new course to catalog
 21:11:24,773  INFO AdminClient,main:70 - 7. Drop a course from catalog
 21:11:24,773  INFO AdminClient,main:71 - 0. To logout
+21:13:10,483 ERROR UserClient,main:138 - 
